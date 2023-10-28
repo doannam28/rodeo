@@ -52,14 +52,14 @@
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">ホーム</a></li>
                                     <li class="nav-item"><a class="nav-link" href="/fighting-academy/">ファイティングアカデミー</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">ジム</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">ダンスフィットネス</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">料金システム</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">スケジュール</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">アクセス</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">無料体験</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">お問合せ</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/gym/">ジム</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/dance-fitness/">ダンスフィットネス</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/fee/">料金システム</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/schedule/">スケジュール</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/access/">アクセス</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="https://rodeostyle.weebly.com/blog" target="_blank">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link" href=" /free-trial/">無料体験</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/contact/">お問合せ</a></li>
                                     <li class="nav-item nav-item-mobile">
                                         <p class="p-lang">
                                             <a href="/" class="active">English</a> <span>|</span> <a href="/">日本語</a>

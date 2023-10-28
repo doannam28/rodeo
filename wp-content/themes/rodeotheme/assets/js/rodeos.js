@@ -6,7 +6,17 @@ var RODEOS = {
       }else{
         $('#header-bot').show();
       }
+    };
+    //Active menu
+    $("#navbarSupportedContent .nav-link").on("click", function(){
+      $("#navbarSupportedContent").find(".active").removeClass("active");
+      $(this).addClass("active");
+    });
+    if(window.location.pathname!='/'){
+      $("#navbarSupportedContent .nav-link").removeClass("active");
+      $('a[href$="' + window.location.pathname + '"]').addClass('active');
     }
+    //End active menu
   },
   home: function(){
     //Tabs
