@@ -18,3 +18,5 @@
 *.flv
 *.mov
 *.wmv
+
+.gitignore
