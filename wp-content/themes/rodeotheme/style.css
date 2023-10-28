@@ -1,0 +1,569 @@
+/*
+Theme Name: Rodeo Theme
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme’s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you’re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.
+Requires at least: 5.9
+Tested up to: 6.3
+Requires PHP: 5.6
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwentytwo
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, style-variations, wide-blocks, block-styles, accessibility-ready, blog, portfolio, news
+
+Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org
+Twenty Twenty-Two is distributed under the terms of the GNU GPL.
+*/
+
+/*
+ * Font smoothing.
+ * This is a niche setting that will not be available via Global Styles.
+ * https://github.com/WordPress/gutenberg/issues/35934
+ */
+@font-face {
+    font-family: 'I.F.C. HARDBALL';
+    src: url('assets/fonts/i_f_c_hardball/I.F.C. HARDBALL.ttf');
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+ul,li{
+    list-style: none;
+}
+p{
+    margin: 0px;
+}
+a:hover{
+    color: #CF0E0E;
+}
+body{
+    color: #fff;
+    background: #000;
+}
+#menu-bot .active, #menu-bot a:hover{
+    color: #CF0E0E;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+#wrapper-header{
+    position: absolute;
+    height: 100px;
+    background: rgba(9, 9, 9, 0.8);
+    width: 100%;
+    z-index: 9;
+}
+#header-top #logo{
+    margin-top: 25px;
+}
+#header-bot{
+    position: fixed;
+    z-index: 9;
+    top: 400px;
+    right: 20px;
+}
+#logo{
+    float: left;
+    width: 190px;
+}
+#menu{
+    float:left;
+    width: calc(100% - 190px);
+}
+.flex-end{
+    display: flex;
+    justify-content: end;
+}
+#menu-bot nav a{
+    color: #fff;
+}
+#menu-bot nav{
+    background: none !important;
+}
+#menu-top .p-lang a, #menu-top .p-lang span{
+    color: #ADADAD;
+}
+#menu-top .p-lang .active{
+    color: #fff;
+}
+#menu-top .p-lang{
+    margin-right: 20px;
+}
+#menu-bot .container-fluid{
+    padding: 0px;
+}
+#menu-top{
+    margin-top: 15px;
+}
+.width-100{
+    width: 100% !important;
+}
+#img-logo-mobile, #slide-mobile,.nav-item-mobile{
+    display: none;
+}
+#slide{
+    display: block;
+}
+#logo-banner img{
+    max-width: 100%;
+    width: 85%;
+}
+#logo-banner{
+    position: absolute;
+    bottom: 0px;
+}
+#block-slide{
+    position: relative;
+}
+.title-red{
+    font-family: 'I.F.C. HARDBALL';
+    font-size: 40px;
+    color:#CF0E0E;
+    font-weight: 400;
+}
+.button span{
+    width: 7px;
+    height: 6px;
+    background: url("assets/images/polygon.png") no-repeat;
+    padding-right: 20px;
+}
+.button:hover{
+    cursor: pointer;
+    color:#fff;
+}
+.button{
+    border: 1px solid #fff;
+    padding: 15px 25px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.new-item{
+    position: relative;
+    font-weight: 700;
+}
+.new-date{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background:#090909;
+    z-index: 9;
+    padding: 8px 15px;
+}
+.a-new:hover{
+    color: #fff !important;
+}
+.new-title{
+    margin-top: 20px;
+}
+.padding-tb-50{
+    padding:50px 0px;
+}
+.padding-tb-20{
+    padding:20px 0px;
+    font-weight: 700;
+}
+#div-title .title-red{
+    margin: 30px 0px;
+}
+.mobile-show{
+    display: none;
+}
+.mobile-hidden{
+    display: block;
+}
+.p-titlt-12{
+    font-size: 12px;
+    color:#CF0E0E;
+}
+.title-massage{
+    font-size: 56px;
+    font-family: 'I.F.C. HARDBALL';
+    text-transform: uppercase;
+    color:#CF0E0E;
+}
+#img-massage{
+    padding-right: 40px;
+}
+#massage{
+    background: url("assets/images/bg-intro.png") center center no-repeat;
+    padding: 120px 0px;
+}
+.font-24{
+    font-size: 24px !important;
+}
+.font-12{
+    font-size: 12px !important;
+}
+.font-16{
+    font-size: 16px !important;
+}
+.margin-top-30{
+    margin-top: 30px;
+}
+#block-why{
+    padding: 80px 0px;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+.owl-carousel1 .owl-nav, .owl-carousel1 .owl-dots{
+    display: none;
+}
+#tabs{
+    border: none !important;
+}
+#tabs ul .ui-state-active span{
+    color: #CF0E0E !important;
+}
+#tabs ul .ui-state-active{
+    border-bottom: 3px solid #CF0E0E !important;
+}
+#tabs ul span{
+    padding: 6px 40px;
+    color: #fff;
+}
+#tabs ul li{
+    border: none;
+    border-bottom: 3px solid #909090 !important;
+    margin: 0px 5px;
+    background: none;
+}
+#tabs .ui-tabs-panel{
+    text-align: center;
+}
+#tabs ul{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 50px 0px;
+}
+.margin-40{
+    margin: 40px 0px;
+}
+.max-width-100{
+    max-width: 100%;
+}
+.div-floor{
+    width: 560px;
+    height: 390px;
+    position: relative;
+}
+.a-cam1{
+    position: absolute;
+    bottom: 98px;
+    z-index: 9;
+    left: 295px;
+}
+.a-cam2{
+    position: absolute;
+    top: 154px;
+    z-index: 9;
+    right: 21px;
+}
+.a-cam3{
+    position: absolute;
+    bottom: 98px;
+    z-index: 9;
+    right: 21px;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.lb-number{
+    display: none !important;
+}
+.lb-data .lb-details{
+    margin-top: 5px;
+}
+.hover-cursor:hover{
+    cursor: pointer;
+}
+.ui-widget-content{
+    background: #000 !important;
+    color: #fff !important;
+}
+.ui-dialog-titlebar-close:focus-visible{
+    border: none;
+}
+.ui-dialog-titlebar-close{
+    background: url("assets/images/close.png") center center no-repeat;
+    border: none;
+}
+
+.ui-widget-header{
+    border: none;
+    background: #000;
+    color:#000;
+}
+.div-bor-title{
+    background: #000;
+    width: fit-content;
+    padding: 0px 5px;
+}
+#block-price{
+    padding: 50px 0px;
+    background: url("assets/images/bg-price.png") center center no-repeat;
+    background-size: cover;
+}
+.body-price{
+    background: rgba(6, 6, 6, 0.8);
+    padding: 64px;
+}
+#block-flow{
+    background: #222222;
+}
+#block-qa{
+    background: url("assets/images/bg-g.png");
+}
+#footer .block1 h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: #090909;
+    text-decoration: underline #fff;
+}
+#footer .block1{
+    background: url("assets/images/footer1.png") center center no-repeat;
+    background-size: cover;
+    height: 182px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer .block3{
+    background: #090909;
+}
+.p-social a{
+    padding: 0px 5px;
+}
+.row-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.padding-right-desk-20{
+    padding-right: 20px;
+}
+.padding-right-desk{
+    padding-right: 40px;
+}
+.block2 .info .p1{
+    font-size: 20px;
+    font-weight: 700;
+}
+.block2 .info{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background: #222222;
+}
+.block2 .map{
+    width: 70%;
+}
+.block2{
+    display: flex;
+}
+#block-title {
+    min-height: 320px;
+    background: url("assets/images/bg-title.png") center center no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+}
+#div-bor-title #under{
+    width: 50px;
+    height: 2px;
+    background: #CF0E0E;
+}
+#div-bor-title h2{
+    font-weight: 700;
+    font-size: 32px;
+}
+.div-title-w .under{
+    width: 50px;
+    height: 1px;
+    background: #909090;
+}
+.div-title-w h2{
+    font-weight: 700;
+    font-size: 28px;
+}
+.font-20{
+    font-size: 20px !important;
+}
+.p-social-member a{
+    padding: 0px !important;
+}
+#block-member .col-right{
+    padding-left: 50px;
+}
+#block-member .col-left{
+    padding-right: 50px;
+}
+.margin-top-50{
+    margin-top: 50px !important;
+}
+.bg-222{
+    background: #222222;
+}
+.bg-09{
+    background: #090909
+}
+@media only screen and (max-width: 768px) {
+    .p-social-member img{
+        margin-right: 10px;
+    }
+    .p-social-member{
+        justify-content: left !important;
+    }
+    #block-member .col-right{
+        margin-top: 50px;
+        padding-left: 10px;
+    }
+    #block-member .col-left{
+        padding-right: 10px;
+    }
+    #block-title {
+        min-height: 160px;
+        background: url("assets/images/bg-title-mobile.png") center center no-repeat;
+        background-size: cover;
+        padding-top: 90px;
+    }
+    #div-bor-title h2{
+        font-size: 24px;
+    }
+    .padding-right-desk, .padding-right-desk-20{
+        padding-right: 0px;
+    }
+    .block2 .map,.block2 .info{
+        width: 100%;
+    }
+    .row-footer, .block2{
+        display: block;
+    }
+    .block3 .p-social{
+        display: block !important;
+        margin-top: 10px;
+    }
+    #footer .block1 h2{
+        width: 290px;
+        font-size: 32px;
+    }
+    #footer .block1{
+        background: url("assets/images/footer1-mobile.png") center center no-repeat;
+        background-size: cover;
+    }
+    .body-price{
+        padding: 10px;
+    }
+    .a-cam1{
+        bottom: 69px;
+        left: 173px;
+    }
+    .a-cam2 {
+        top: 86px;
+        right: 15px;
+    }
+    .a-cam3{
+        bottom: 64px;
+        right: 10px;
+    }
+    .div-floor{
+        width: 350px;
+        height: 250px;
+    }
+    #block-why{
+        padding: 20px 0px;
+    }
+    .mobile-hidden{
+        display: none;
+    }
+    .mobile-show{
+        display: block;
+    }
+   #wrapper-header{
+        background-size: contain !important;
+    }
+    #menu-top{
+        display: none;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background: url("assets/images/Menu.png");
+        background-size: contain;
+    }
+    #img-logo-mobile,.nav-item-mobile{
+        display: block;
+    }
+    #img-logo{
+        display: none;
+    }
+    #wrapper-header{
+        height: 56px;
+    }
+    #header-top #logo {
+        margin-top: 20px;
+    }
+    .navbar-collapse{
+        background: rgba(9, 9, 9, 0.8);
+        padding: 20px;
+        border:1px solid #CF0E0E;
+    }
+    #menu-bot .container-fluid {
+        display: flex;
+        justify-content: end;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none !important;
+    }
+    #menu-bot{
+        margin-top: 5px;
+    }
+    .p-lang, .p-social{
+        display: flex;
+        justify-content: space-around;
+    }
+    .p-lang{
+        margin: 10px 0px;
+    }
+    #wrapper-header{
+        max-height: 500px;
+    }
+    #slide{
+        display: none;
+    }
+    #slide-mobile{
+        display: block;
+        overflow: hidden;
+    }
+    #header-bot img{
+        width: 140px;
+    }
+    #logo-banner{
+        top: 50%;
+    }
+    #header-bot{
+        top: 345px;
+    }
+    #logo-banner img{
+        width: 100%;
+    }
+    #div-title{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    #div-title .title-red{
+        margin: 0px;
+    }
+    #img-massage{
+        padding-right: 0px;
+    }
+    #tabs ul span {
+        padding: 6px 35px;
+    }
+}
