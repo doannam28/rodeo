@@ -32,14 +32,14 @@
             </div>
             <div id="menu">
                 <div id="menu-top" class="flex-end">
-                    <?php echo do_shortcode('[google-translator]'); ?>
+                    <?php echo do_shortcode('[gtranslate]'); ?>
                     <p class="p-lang">
                         <a href="/" class="active">English</a> <span>|</span> <a href="/">日本語</a>
                     </p>
                     <p class="p-social">
-                        <a href="/"><img src="<?php bloginfo('template_directory'); ?>/assets/images/YouTube.svg"/></a>
-                        <a href="/"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Instagram.svg"/></a>
-                        <a href="/"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Facebook.png"/></a>
+                        <a href="https://www.youtube.com/channel/UCx2JkRx2PA_pdj2_CYWXB9g" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/YouTube.svg"/></a>
+                        <a href="https://www.instagram.com/nostylelikerodeostyle/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Instagram.svg"/></a>
+                        <a href="https://www.facebook.com/nostylelikerodeostyle" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Facebook.png"/></a>
                     </p>
                 </div>
                 <div id="menu-bot" class="flex-end">

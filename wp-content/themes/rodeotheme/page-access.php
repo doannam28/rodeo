@@ -30,10 +30,10 @@ get_header(); ?>
                     <p class="font-16 font-weight-700">駐車場はジム近くのコインパーキングをご利用ください。</p>
                     <p class="font-16 font-weight-700">バイク、自転車の方はビル敷地内に若干、停めれますが数に限りがあります。予めご了承ください。</p>
                 </div>
-                <div class="col-12">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.5682128764856!2d106.01495341179881!3d20.96984828971692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a50118f2e697%3A0x4e783c9e6aa91b71!2zdGjDtG4gbmfhuqNpIGTGsMahbmcseMOjIMSRw6xuaCBkw7ksIGh1eeG7h24gdsSDbiBsw6JtICwgdOG7iW5oIGjGsG5nIHnDqm4!5e0!3m2!1svi!2s!4v1698164539356!5m2!1svi!2s" width="100%" height="265" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="col-12 magin-top-30">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.2268301996137!2d139.6262623!3d35.3003449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60184120e9719edb%3A0x8f0b29984ceab60!2z44Ot44OH44Kq44K544K_44Kk44Or44K444Og!5e0!3m2!1svi!2s!4v1698553599325!5m2!1svi!2s" width="100%" height="265" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="col-12">
+                <div class="col-12 magin-top-30">
                     <p class="font-16 font-weight-700">住所</p>
                     <p class="font-16 font-weight-700">〒237-0076</p>
                     <p class="font-16 font-weight-700">神奈川県横須賀市船越町5-1​TKビル4・5・6F</p>

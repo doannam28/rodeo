@@ -123,16 +123,22 @@ get_header(); ?>
             <p class="p-titlt-12">プログラム</p>
             <div class="row margin-top-30">
                 <div class="col-12 col-md-4">
-                    <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/programs/img1.png"/>
+                    <a href="/fighting-academy/">
+                        <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/programs/img1.png"/>
+                    </a>
                 </div>
                 <div class="col-12 col-md-4">
-                    <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/programs/img2.png"/>
+                    <a href="/gym/">
+                        <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/programs/img2.png"/>
+                    </a>
                 </div>
                 <div class="col-12 col-md-4">
-                    <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/programs/img3.png"/>
+                    <a href="/dance-fitness/">
+                        <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/programs/img3.png"/>
+                    </a>
                 </div>
             </div>
-            <a href="/" class="button width-100 margin-top-30"><span>&nbsp;</span> さらに見る</a>
+            <a href="/schedule" class="button width-100 margin-top-30"><span>&nbsp;</span> さらに見る</a>
         </div>
     </section>
     <section>
