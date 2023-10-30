@@ -1,7 +1,7 @@
 var RODEOS = {
   inits: function(){
     window.onscroll = function (e) {
-      if((window.screen.width <= 768 && window.scrollY >= 360) || (window.screen.width > 768 && window.scrollY >= 10920)){
+      if ((window.innerHeight + Math.round(window.scrollY)) >= (document.body.offsetHeight - $('#footer').height())) {
         $('#header-bot').hide();
       }else{
         $('#header-bot').show();
@@ -49,11 +49,11 @@ var RODEOS = {
     });
     var owl2 = $('#owl-carousel2');
     owl2.owlCarousel({
-      margin: 25,
-      loop: true,
+      loop: false,
       mouseDrag: false,
+      center: true,
       responsive: {
-        600: {
+        0: {
           items: 1
         },
         1000: {

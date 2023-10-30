@@ -35,7 +35,7 @@ get_header(); ?>
         </div>
     </section>
     <section class="padding-tb-20">
-        <div class="container">
+        <div class="container max-width-1032">
             <div class="padding-tb-20">
                 <div class="container">
                     <img class="width-100 mobile-hidden" src="<?php bloginfo('template_directory'); ?>/assets/images/banner.png"/>
@@ -45,7 +45,7 @@ get_header(); ?>
         </div>
     </section>
     <section id="block-news" class="padding-tb-20">
-        <div class="container">
+        <div class="container max-width-1032">
             <div class="row">
                 <div class="col-12 col-md-2">
                     <div id="div-title">
@@ -88,13 +88,21 @@ get_header(); ?>
         </div>
     </section>
     <section id="introduction" class="mobile-hidden">
-        <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/Introduction.png"/>
+        <div class="container max-width-1032">
+            <div class="col-12">
+                <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/Introduction.png"/>
+            </div>
+        </div>
     </section>
     <section id="introduction-mobile" class="mobile-show">
-        <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/Introduction-mobile.png"/>
+        <div class="container">
+            <div class="col-12">
+                <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/Introduction-mobile.png"/>
+            </div>
+        </div>
     </section>
     <section id="massage">
-        <div class="container">
+        <div class="container max-width-1032">
             <div class="row">
                 <div class="col-12 col-md-4">
                     <img id="img-massage" src="<?php bloginfo('template_directory'); ?>/assets/images/massage.png" class="width-100" />
@@ -112,13 +120,21 @@ get_header(); ?>
         </div>
     </section>
     <section class="mobile-hidden">
-        <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/why-rodeo-style.png"/>
+        <div class="container max-width-1032">
+            <div class="col-12">
+                <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/why-rodeo-style.png"/>
+            </div>
+        </div>
     </section>
     <section class="mobile-show">
-        <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/why-rodeo-style-mobile.png"/>
+        <div class="container">
+            <div class="col-12">
+                <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/why-rodeo-style-mobile.png"/>
+            </div>
+        </div>
     </section>
     <section id="block-why">
-        <div class="container">
+        <div class="container max-width-1032">
             <h2 class="title-massage">Program</h2>
             <p class="p-titlt-12">プログラム</p>
             <div class="row margin-top-30">
@@ -145,11 +161,11 @@ get_header(); ?>
         <div>
             <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/bg-floor.png"/>
         </div>
-        <div class="container margin-top-30">
+        <div class="container margin-top-30 max-width-1032">
             <h2 class="title-massage">Floor Map</h2>
             <p class="p-titlt-12">フロアマップ</p>
         </div>
-        <div class="container">
+        <div class="container max-width-1032">
             <div id="tabs">
                 <ul>
                     <li class="li-active"><a href="#4f"><span>4F</span></a></li>
@@ -160,24 +176,25 @@ get_header(); ?>
                     <div class="item" data-hash="4f" id="fragment-1">
                         <div class="flex-center">
                             <div class="div-floor">
-                                <img class="max-width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/floors/floor.png"/>
-                                <a class="a-cam1" href="<?php bloginfo('template_directory'); ?>/assets/images/floors/cam1.png" data-lightbox="roadtrip" data-title="リング"><img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/camera.png"/> </a>
-                                <a class="a-cam2" href="<?php bloginfo('template_directory'); ?>/assets/images/floors/cam2.png" data-lightbox="roadtrip" data-title="マットスペース"><img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/camera.png"/> </a>
-                                <a class="a-cam3" href="<?php bloginfo('template_directory'); ?>/assets/images/floors/cam3.png" data-lightbox="roadtrip" data-title="サンドバッグ / 待機スペース"><img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/camera.png"/> </a>
+                                <img class="max-width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/floors/floor4.png"/>
                             </div>
                         </div>
                     </div>
                     <div class="item" data-hash="5f" id="fragment-2" class="flex-center">
                         <div class="flex-center">
                             <div class="div-floor">
-                                <img class="max-width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/floors/floor1.png"/>
+                                <img class="max-width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/floors/floor5.png"/>
+                                <a class="a-cam1" href="<?php bloginfo('template_directory'); ?>/assets/images/floors/cam1.png" data-lightbox="roadtrip" data-title="リング"><img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/camera.png"/> </a>
+                                <a class="a-cam2" href="<?php bloginfo('template_directory'); ?>/assets/images/floors/cam2.png" data-lightbox="roadtrip" data-title="マットスペース"><img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/camera.png"/> </a>
+                                <a class="a-cam3" href="<?php bloginfo('template_directory'); ?>/assets/images/floors/cam3.png" data-lightbox="roadtrip" data-title="サンドバッグ / 待機スペース"><img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/camera.png"/> </a>
                             </div>
                         </div>
                     </div>
                     <div class="item" data-hash="6f" id="fragment-3" class="flex-center">
                         <div class="flex-center">
                             <div class="div-floor">
-                                <img class="max-width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/floors/floor2.png"/>
+                                <img class="max-width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/floors/floor6.png"/>
+                                <a class="a-cam4" href="<?php bloginfo('template_directory'); ?>/assets/images/floors/cam3.png" data-lightbox="roadtrip1" data-title="ジムスペース"><img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/camera.png"/> </a>
                             </div>
                         </div>
                     </div>
@@ -192,7 +209,7 @@ get_header(); ?>
         </div>
     </section>
     <section id="block-price">
-        <div class="container">
+        <div class="container max-width-1032">
             <div class="div-bor-title">
                 <h2 class="title-massage">Price</h2>
                 <p class="p-titlt-12">料金システム</p>
@@ -207,8 +224,8 @@ get_header(); ?>
         </div>
     </section>
     <section id="block-flow" class="padding-tb-50">
-        <div class="container">
-            <div class="div-bor-title">
+        <div class="container max-width-1032">
+            <div class="div-bor-title no-background">
                 <h2 class="title-massage">Flow</h2>
                 <p class="p-titlt-12">入会までの流れ</p>
             </div>
@@ -217,7 +234,7 @@ get_header(); ?>
         </div>
     </section>
     <section class="padding-tb-20">
-        <div class="container">
+        <div class="container max-width-1032">
             <div class="padding-tb-20">
                 <div class="container">
                     <img class="width-100 mobile-hidden" src="<?php bloginfo('template_directory'); ?>/assets/images/banner.png"/>
@@ -227,7 +244,7 @@ get_header(); ?>
         </div>
     </section>
     <section id="block-qa" class="padding-tb-50">
-        <div class="container">
+        <div class="container max-width-1032">
             <div class="div-bor-title">
                 <h2 class="title-massage">FAQ</h2>
                 <p class="p-titlt-12">よくあるご質問</p>
