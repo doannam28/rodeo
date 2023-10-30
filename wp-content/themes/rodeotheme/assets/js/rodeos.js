@@ -1,7 +1,7 @@
 var RODEOS = {
   inits: function(){
     window.onscroll = function (e) {
-      if(window.screen.width <= 768 && window.scrollY >= 360){
+      if((window.screen.width <= 768 && window.scrollY >= 360) || (window.screen.width > 768 && window.scrollY >= 10920)){
         $('#header-bot').hide();
       }else{
         $('#header-bot').show();
@@ -17,16 +17,21 @@ var RODEOS = {
       $('a[href$="' + window.location.pathname + '"]').addClass('active');
     }
     //End active menu
+    //Tab
+    $('#tabs ul li').click(function(){
+      $("#tabs ul").find(".li-active").removeClass("li-active");
+      $(this).addClass("li-active");
+    })
   },
   home: function(){
     //Tabs
-    $( "#tabs" ).tabs({
+   /* $( "#tabs" ).tabs({
       active: 0,
       show: { effect: "blind", duration: 800 }
-    });
+    });*/
     //End tab
     //owl-carousel
-    var owl = $('.owl-carousel');
+    var owl = $('#owl-carousel');
     owl.owlCarousel({
       margin: 25,
       loop: true,
@@ -39,6 +44,20 @@ var RODEOS = {
         },
         1000: {
           items: 3
+        }
+      }
+    });
+    var owl2 = $('#owl-carousel2');
+    owl2.owlCarousel({
+      margin: 25,
+      loop: true,
+      mouseDrag: false,
+      responsive: {
+        600: {
+          items: 1
+        },
+        1000: {
+          items: 1.5
         }
       }
     });

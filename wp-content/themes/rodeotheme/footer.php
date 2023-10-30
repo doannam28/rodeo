@@ -10,8 +10,8 @@
             <div>
                 <p class="p1">ロデオスタイル</p>
                 <p class="font-16 margin-top-30">〒237-0076 神奈川県横須賀市船越町5-1TKビル4・5・6F </p>
-                <p class="font-16 margin-top-30">Tel: 046-861-1672</p>
-                <p class="font-16">Mail: nostylelikerodeostyle@gmail.com</p>
+                <p class="font-16 margin-top-30">Tel: <a href="tel:0468611672">046-861-1672</a></p>
+                <p class="font-16">Mail: <a href="mailto:nostylelikerodeostyle@gmail.com">nostylelikerodeostyle@gmail.com</a></p>
                 <a href="/access" class="button margin-top-30"><span>&nbsp;</span> アクセス</a>
             </div>
         </div>
@@ -28,8 +28,8 @@
             </div>
             <p class="text-center margin-top-30">横須賀市/京急田浦/逗子/葉山/横浜/金沢区/鎌倉/ボクシング/キックボクシング/ブラジリアン柔術/総合格闘技/フィットネス&トレーニング ジム /道場/キッズレスリング/キッズキックボクシング/スポーツクラブ/ダイエット/ジム/バレトン/朝活/HIIT/ポルドブラ/ベリーダンス/パーソナルトレーニング</p>
             <div class="row-footer margin-top-30">
-                <p class="text-center padding-right-desk">プライバシーポリシー</p>
-                <p class="text-center">特定商取引法に基づく表記 </p>
+                <p class="text-center padding-right-desk"><a href="<?php bloginfo('template_directory'); ?>/assets/images/img-footer.jpg">プライバシーポリシー</a></p>
+                <p class="text-center"><a href="<?php bloginfo('template_directory'); ?>/assets/images/pdf-footer.pdf">特定商取引法に基づく表記</a></p>
             </div>
             <p class="text-center margin-top-30">Copyright © RODEO STYLE, All rights reserved.</p>
         </div>

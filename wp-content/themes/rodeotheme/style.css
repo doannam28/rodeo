@@ -224,11 +224,14 @@ a {
 #tabs{
     border: none !important;
 }
-#tabs ul .ui-state-active span{
+#tabs ul .li-active span{
     color: #CF0E0E !important;
 }
-#tabs ul .ui-state-active{
+#tabs ul .li-active{
     border-bottom: 3px solid #CF0E0E !important;
+}
+#owl-carousel2 .owl-dots{
+    display: none;
 }
 #tabs ul span{
     padding: 6px 40px;
@@ -448,6 +451,9 @@ a {
 #contact-form .div-name label:last-child{
     padding-left: 5px;
 }
+.screen-reader-response{
+    display: none;
+}
 #contact-form .wpcf7-not-valid-tip, .screen-reader-response, .wpcf7-response-output{
     font-size: 12px;
     color: #CF0E0E;
@@ -465,6 +471,9 @@ a {
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+#bor-content-tab{
+    display: flex;
 }
 @media only screen and (max-width: 768px) {
     .max-width-920 {
@@ -537,7 +546,7 @@ a {
         right: 15px;
     }
     .a-cam3{
-        bottom: 64px;
+        bottom: 69px;
         right: 10px;
     }
     .div-floor{

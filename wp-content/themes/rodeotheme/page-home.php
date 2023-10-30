@@ -54,7 +54,7 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="col-12 col-md-10">
-                    <div class="row owl-carousel">
+                    <div id="owl-carousel" class="row owl-carousel">
                         <div class="item">
                             <a href="/" class="a-new">
                                 <div class="new-item">
@@ -152,31 +152,33 @@ get_header(); ?>
         <div class="container">
             <div id="tabs">
                 <ul>
-                    <li><a href="#fragment-1"><span>4F</span></a></li>
-                    <li><a href="#fragment-2"><span>5F</span></a></li>
-                    <li><a href="#fragment-3"><span>6F</span></a></li>
+                    <li class="li-active"><a href="#4f"><span>4F</span></a></li>
+                    <li><a href="#5f"><span>5F</span></a></li>
+                    <li><a href="#6f"><span>6F</span></a></li>
                 </ul>
-                <div id="fragment-1">
-                    <div class="flex-center">
-                        <div class="div-floor">
-                            <img class="max-width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/floors/floor.png"/>
-                            <a class="a-cam1" href="<?php bloginfo('template_directory'); ?>/assets/images/floors/cam1.png" data-lightbox="roadtrip" data-title="リング"><img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/camera.png"/> </a>
-                            <a class="a-cam2" href="<?php bloginfo('template_directory'); ?>/assets/images/floors/cam2.png" data-lightbox="roadtrip" data-title="マットスペース"><img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/camera.png"/> </a>
-                            <a class="a-cam3" href="<?php bloginfo('template_directory'); ?>/assets/images/floors/cam3.png" data-lightbox="roadtrip" data-title="サンドバッグ / 待機スペース"><img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/camera.png"/> </a>
+                <div id="owl-carousel2" class="owl-carousel owl-theme">
+                    <div class="item" data-hash="4f" id="fragment-1">
+                        <div class="flex-center">
+                            <div class="div-floor">
+                                <img class="max-width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/floors/floor.png"/>
+                                <a class="a-cam1" href="<?php bloginfo('template_directory'); ?>/assets/images/floors/cam1.png" data-lightbox="roadtrip" data-title="リング"><img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/camera.png"/> </a>
+                                <a class="a-cam2" href="<?php bloginfo('template_directory'); ?>/assets/images/floors/cam2.png" data-lightbox="roadtrip" data-title="マットスペース"><img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/camera.png"/> </a>
+                                <a class="a-cam3" href="<?php bloginfo('template_directory'); ?>/assets/images/floors/cam3.png" data-lightbox="roadtrip" data-title="サンドバッグ / 待機スペース"><img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/camera.png"/> </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div id="fragment-2" class="flex-center">
-                    <div class="flex-center">
-                        <div class="div-floor">
-                            <img class="max-width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/floors/floor1.png"/>
+                    <div class="item" data-hash="5f" id="fragment-2" class="flex-center">
+                        <div class="flex-center">
+                            <div class="div-floor">
+                                <img class="max-width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/floors/floor1.png"/>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div id="fragment-3" class="flex-center">
-                    <div class="flex-center">
-                        <div class="div-floor">
-                            <img class="max-width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/floors/floor2.png"/>
+                    <div class="item" data-hash="6f" id="fragment-3" class="flex-center">
+                        <div class="flex-center">
+                            <div class="div-floor">
+                                <img class="max-width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/floors/floor2.png"/>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -285,7 +287,7 @@ get_header(); ?>
       autoOpen: false,
       resizable: false,
       height: "auto",
-      width: window.screen.width <= 768 ? 'auto' : 800,
+      width: window.screen.width <= 768 ? 'auto' : '100%',
       modal: true,
       show: {
         effect: "blind",
@@ -296,7 +298,6 @@ get_header(); ?>
         duration: 1000
       }
     });
-
     $( "#opener" ).on( "click", function() {
       $( "#dialog" ).dialog( "open" );
     });
@@ -305,4 +306,12 @@ get_header(); ?>
 <div id="header-bot">
     <img src="<?php bloginfo('template_directory'); ?>/assets/images/FreeTrial.png">
 </div>
+<style>
+    .ui-dialog{
+        position: fixed;
+        top: 0px !important;
+        left: 0px !important;
+        height: 100% !important;
+    }
+</style>
 <?php get_footer(); ?>
