@@ -321,7 +321,9 @@ get_header(); ?>
   } );
 </script>
 <div id="header-bot">
-    <img src="<?php bloginfo('template_directory'); ?>/assets/images/FreeTrial.png">
+    <a href="/free-trial/">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/images/FreeTrial.png">
+    </a>
 </div>
 <style>
     .ui-dialog{

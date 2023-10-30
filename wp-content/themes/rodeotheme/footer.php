@@ -1,6 +1,8 @@
 <section id="footer">
     <div class="block1">
+        <a href="/free-trial/">
             <h2 class="text-center">まずは無料体験！ 予約はこちらから！</h2>
+        </a>
     </div>
     <div class="block2">
         <div class="map">
