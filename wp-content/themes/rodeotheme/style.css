@@ -65,6 +65,7 @@ a {
     z-index: 9;
     top: 400px;
     right: 20px;
+    display: none;
 }
 #logo{
     float: left;
@@ -80,6 +81,7 @@ a {
 }
 #menu-bot nav a{
     color: #fff;
+    text-transform: capitalize;
 }
 #menu-bot nav{
     background: none !important;
@@ -493,12 +495,56 @@ a {
     left: 0px;
     z-index: 10;
 }
+.program-item span {
+    width: 7px;
+    height: 6px;
+    background: url(assets/images/polygon.png) no-repeat;
+    padding-right: 20px;
+}
+.program-item p:hover{
+    color: #CF0E0E !important;
+}
+.program-item p{
+    display: flex;
+    padding: 17px 10px;
+    background: rgba(9, 9, 9, 0.8);
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    align-items: center;
+    width: 100%;
+}
+.program-item{
+    position: relative;
+}
+#dialog{
+    max-height: 100% !important;
+    overflow-y: auto;
+}
+body{
+    top: 0px !important;
+}
+.skiptranslate iframe{
+    display: none !important;
+}
 @media only screen and (min-width: 1280px) {
     .max-width-1032{
         max-width: 1032px !important;
     }
 }
 @media only screen and (max-width: 768px) {
+    #google_translate_element_mobile{
+        margin-bottom: 10px;
+    }
+    #google_translate_element_mobile a{
+        color: #000 !important;
+    }
+    .lb-nav a.lb-next, .lb-nav a.lb-prev{
+        opacity: 1 !important;
+    }
+    #dialog{
+        padding-bottom:20px;
+    }
     .max-width-920 {
         max-width: 100% !important;
     }
@@ -590,7 +636,8 @@ a {
         display: block;
     }
    #wrapper-header{
-        background-size: contain !important;
+       background-size: contain !important;
+       z-index: 99;
     }
     #menu-top{
         display: none;

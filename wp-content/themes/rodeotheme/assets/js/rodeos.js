@@ -1,10 +1,18 @@
 var RODEOS = {
   inits: function(){
     window.onscroll = function (e) {
-      if ((window.innerHeight + Math.round(window.scrollY)) >= (document.body.offsetHeight - $('#footer').height())) {
-        $('#header-bot').hide();
+      if (window.scrollY < 10 || ((window.innerHeight + Math.round(window.scrollY)) >= (document.body.offsetHeight - $('#footer').height()))) {
+        $('#header-bot').hide(function(){
+          $("header-bot").animate({
+            height: 'toggle'
+          });
+        });
       }else{
-        $('#header-bot').show();
+        $('#header-bot').show(function(){
+          $("header-bot").animate({
+            height: 'toggle'
+          });
+        });
       }
     };
     //Active menu
@@ -57,7 +65,7 @@ var RODEOS = {
     var owl2 = $('#owl-carousel2');
     owl2.owlCarousel({
       loop: false,
-      mouseDrag: false,
+      mouseDrag: true,
       center: true,
       responsive: {
         0: {
@@ -67,6 +75,10 @@ var RODEOS = {
           items: 1.5
         }
       }
+    });
+    owl2.on('changed.owl.carousel', function(event) {
+      $('.li-tab').removeClass('li-active');
+      $('.li-tab-'+event.item.index).addClass('li-active');
     });
     //end owl-carousel
     //JSSOR SLIDE

@@ -139,19 +139,28 @@ get_header(); ?>
             <p class="p-titlt-12">プログラム</p>
             <div class="row margin-top-30">
                 <div class="col-12 col-md-4">
-                    <a href="/fighting-academy/">
-                        <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/programs/img1.png"/>
-                    </a>
+                    <div class="program-item">
+                        <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/programs/img.png"/>
+                        <a href="/fighting-academy/">
+                            <p class="font-16 font-weight-700"><span>&nbsp;</span>ファイティングアカデミー</p>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <a href="/gym/">
-                        <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/programs/img2.png"/>
-                    </a>
+                    <div class="program-item">
+                        <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/programs/img_1.png"/>
+                        <a href="/gym/">
+                            <p class="font-16 font-weight-700"><span>&nbsp;</span>ワークアウトジム</p>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <a href="/dance-fitness/">
-                        <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/programs/img3.png"/>
-                    </a>
+                    <div class="program-item">
+                        <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/programs/img_2.png"/>
+                        <a href="/dance-fitness/">
+                            <p class="font-16 font-weight-700"><span>&nbsp;</span>ダンスフィットネス</p>
+                        </a>
+                    </div>
                 </div>
             </div>
             <a href="/schedule" class="button width-100 margin-top-30"><span>&nbsp;</span> さらに見る</a>
@@ -168,9 +177,9 @@ get_header(); ?>
         <div class="container max-width-1032">
             <div id="tabs">
                 <ul>
-                    <li class="li-active"><a href="#4f"><span>4F</span></a></li>
-                    <li><a href="#5f"><span>5F</span></a></li>
-                    <li><a href="#6f"><span>6F</span></a></li>
+                    <li class="li-tab li-tab-0 li-active"><a href="#4f"><span>4F</span></a></li>
+                    <li class="li-tab li-tab-1"><a href="#5f"><span>5F</span></a></li>
+                    <li class="li-tab li-tab-2"><a href="#6f"><span>6F</span></a></li>
                 </ul>
                 <div id="owl-carousel2" class="owl-carousel owl-theme">
                     <div class="item" data-hash="4f" id="fragment-1">
