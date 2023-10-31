@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
     <meta charset="UTF-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
@@ -18,6 +18,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="<?php bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
     <script src="<?php bloginfo('template_directory'); ?>/assets/js/jssor.slider.min.js"></script>
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/js/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/js/owlcarousel/assets/owl.theme.default.min.css">
+    <script src="<?php bloginfo('template_directory'); ?>/assets/js/owlcarousel/owl.carousel.js"></script>
+    <link href="<?php bloginfo('template_directory'); ?>/assets/js/lightbox/css/lightbox.css" rel="stylesheet" />
+    <script src="<?php bloginfo('template_directory'); ?>/assets/js/lightbox/js/lightbox.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/assets/js/rodeos.js"></script>
 </head>
 <body>
@@ -32,9 +37,9 @@
             </div>
             <div id="menu">
                 <div id="menu-top" class="flex-end">
-                    <?php echo do_shortcode('[gtranslate]'); ?>
                     <p class="p-lang">
-                        <a href="/" class="active">English</a> <span>|</span> <a href="/">日本語</a>
+                    <div id="google_translate_element"></div>
+                        <!--<a href="/en" class="a-en">English</a> <span>|</span> <a class="a-ja active" href="/ja">日本語</a>-->
                     </p>
                     <p class="p-social">
                         <a href="https://www.youtube.com/channel/UCx2JkRx2PA_pdj2_CYWXB9g" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/YouTube.svg"/></a>
@@ -62,7 +67,19 @@
                                     <li class="nav-item"><a class="nav-link" href="/contact/">お問合せ</a></li>
                                     <li class="nav-item nav-item-mobile">
                                         <p class="p-lang">
-                                            <a href="/" class="active">English</a> <span>|</span> <a href="/">日本語</a>
+                                        <div id="google_translate_element_mobile"></div>
+                                        <script>
+                                          function googleTranslateElementInit() {
+                                            var elm = window.screen.width <= 768 ? 'google_translate_element_mobile': 'google_translate_element';
+                                            new google.translate.TranslateElement({
+                                              pageLanguage: 'en,ja',
+                                              includedLanguages: 'en,ja',
+                                              layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                                            }, elm);
+                                          }
+                                        </script>
+                                        <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                                           <!-- <a href="/" class="a-en">English</a> <span>|</span> <a class="a-ja active" href="/">日本語</a>-->
                                         </p>
                                     </li>
                                     <li class="nav-item nav-item-mobile">

@@ -16,6 +16,13 @@ var RODEOS = {
       $("#navbarSupportedContent .nav-link").removeClass("active");
       $('a[href$="' + window.location.pathname + '"]').addClass('active');
     }
+   /* if(window.location.pathname!='/en/'){
+      $(".a-ja").removeClass("active");
+      $('.a-en').addClass('active');
+    }else{
+      $(".a-en").removeClass("active");
+      $('.a-ja').addClass('active');
+    }*/
     //End active menu
     //Tab
     $('#tabs ul li').click(function(){
@@ -90,4 +97,5 @@ var RODEOS = {
 }
 $(document).ready(function(){
   RODEOS.inits();
+  RODEOS.home();
 })

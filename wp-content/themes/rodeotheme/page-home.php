@@ -194,7 +194,7 @@ get_header(); ?>
                         <div class="flex-center">
                             <div class="div-floor">
                                 <img class="max-width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/floors/floor6.png"/>
-                                <a class="a-cam4" href="<?php bloginfo('template_directory'); ?>/assets/images/floors/cam3.png" data-lightbox="roadtrip1" data-title="ジムスペース"><img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/camera.png"/> </a>
+                                <a class="a-cam4" href="<?php bloginfo('template_directory'); ?>/assets/images/floors/cam4.png" data-lightbox="roadtrip1" data-title="ジムスペース"><img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/camera.png"/> </a>
                             </div>
                         </div>
                     </div>
@@ -256,16 +256,7 @@ get_header(); ?>
         </div>
     </section>
 </div>
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/js/owlcarousel/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/js/owlcarousel/assets/owl.theme.default.min.css">
-<script src="<?php bloginfo('template_directory'); ?>/assets/js/owlcarousel/owl.carousel.js"></script>
-<link href="<?php bloginfo('template_directory'); ?>/assets/js/lightbox/css/lightbox.css" rel="stylesheet" />
-<script src="<?php bloginfo('template_directory'); ?>/assets/js/lightbox/js/lightbox.js"></script>
-<script>
-  $(document).ready(function(){
-    RODEOS.home();
-  })
-</script>
+
 <div id="dialog" title="Message">
     <div>
         <p><b>NO STYLE LIKE RODEO STYLE</b></p>
@@ -311,7 +302,7 @@ get_header(); ?>
         duration: 1000
       },
       hide: {
-        effect: "explode",
+        effect: "blind",
         duration: 1000
       }
     });
