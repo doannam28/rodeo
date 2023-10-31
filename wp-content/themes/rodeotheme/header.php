@@ -78,7 +78,7 @@
                                             }, elm);
                                           }
                                         </script>
-                                        <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                                        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
                                            <!-- <a href="/" class="a-en">English</a> <span>|</span> <a class="a-ja active" href="/">日本語</a>-->
                                         </p>
                                     </li>
