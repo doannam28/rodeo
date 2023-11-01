@@ -26,7 +26,7 @@ Twenty Twenty-Two is distributed under the terms of the GNU GPL.
     src: url('assets/fonts/i_f_c_hardball/I.F.C. HARDBALL.ttf');
 }
 *{
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
     font-weight: 400;
     font-size: 14px;
 }
@@ -524,8 +524,43 @@ a {
 body{
     top: 0px !important;
 }
-.skiptranslate iframe{
+.skiptranslate iframe, .goog-te-gadget-icon{
     display: none !important;
+}
+.goog-te-gadget-simple{
+    background: #000 !important;
+    border-radius: 5px;
+}
+.goog-te-gadget-simple span{
+    color: #fff !important;
+}
+#tb-price {
+    width: 100%;
+}
+#tb-price tr, #tb-price td{
+    border: 2px solid gray;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px;
+}
+#tb-price .textleft{
+    text-align: left !important;
+}
+#tb-price thead td{
+    background: #606060;
+    font-weight: 700;
+}
+.font-28{
+    font-size: 28px !important;
+}
+.color-yellow{
+    color: #DDD406;
+    font-weight: 700;
+}
+.price-bottom{
+    display: flex;
+    justify-content: space-between;
 }
 @media only screen and (min-width: 1280px) {
     .max-width-1032{

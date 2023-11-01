@@ -8,7 +8,7 @@ get_header(); ?>
 
 <div id="wrapper-body">
     <section id="block-title">
-        <div class="container">
+        <div class="container max-width-920">
             <div id="div-bor-title">
                 <h2>無料体験お申込フォーム</h2>
                 <p id="under"></p>

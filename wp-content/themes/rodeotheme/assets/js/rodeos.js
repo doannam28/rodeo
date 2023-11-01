@@ -104,10 +104,25 @@ var RODEOS = {
     $Jssor$.$AddEvent(window, "resize", ScaleSlider);
     $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
     var jssor_2_slider = new $JssorSlider$("jssor_2", options);
+    var MAX_WIDTH2 = 768;
+    function ScaleSlider2() {
+      var containerElement = jssor_2_slider.$Elmt.parentNode;
+      var containerWidth = containerElement.clientWidth;
+
+      if (containerWidth) {
+
+        var expectedWidth = Math.min(MAX_WIDTH2 || containerWidth, containerWidth);
+
+        jssor_2_slider.$ScaleWidth(expectedWidth);
+      }
+      else {
+        window.setTimeout(ScaleSlider, 30);
+      }
+    }
+    ScaleSlider2();
     //End JSSOR SLIDE
   }
 }
 $(document).ready(function(){
   RODEOS.inits();
-  RODEOS.home();
 })

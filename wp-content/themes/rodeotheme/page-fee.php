@@ -8,7 +8,7 @@ get_header(); ?>
 
 <div id="wrapper-body">
     <section id="block-title">
-        <div class="container">
+        <div class="container max-width-920">
             <div id="div-bor-title">
                 <h2>料金システム</h2>
                 <p id="under"></p>
@@ -40,12 +40,81 @@ get_header(); ?>
             </div>
             <div class="row margin-top-30">
                 <div class="col-12">
-                    <img class="width-100 mobile-hidden" src="<?php bloginfo('template_directory'); ?>/assets/images/fees/img-2.png"/>
-                    <img class="width-100 mobile-hidden" src="<?php bloginfo('template_directory'); ?>/assets/images/fees/img_1.png"/>
+                    <table id="tb-price" class="mobile-hidden">
+                        <thead>
+                            <td width="20%">会員種別</td>
+                            <td width="20%">会費</td>
+                            <td>内容</td>
+                        </thead>
+                        <tr>
+                            <td width="20%" class="font-weight-700">一般会員</td>
+                            <td width="20%"><span class="font-28">9,980</span> 円 / 月</td>
+                            <td class="textleft">格闘技クラスからフィットネスジムまで全て学べます。</td>
+                        </tr>
+                        <tr>
+                            <td width="20%" class="font-weight-700">レディース会員</td>
+                            <td width="20%"><span class="font-28">7,980</span> 円 / 月</td>
+                            <td class="textleft">レディースクラスを含む全ての格闘技クラス、ダンス系クラスからフィットネスジムまで学べます。<span class="color-yellow">無料体験後一週間以内にご入会されますとレディース会員7,980円が5,980円</span></td>
+                        </tr>
+                        <tr>
+                            <td width="20%" class="font-weight-700">大学生・専門学生</td>
+                            <td width="20%"><span class="font-28">8,980</span> 円 / 月</td>
+                            <td class="textleft">格闘技クラスからフィットネスジムまで全て学べます。</td>
+                        </tr>
+                        <tr>
+                            <td width="20%" class="font-weight-700">高校生</td>
+                            <td width="20%"><span class="font-28">7,980</span> 円 / 月</td>
+                            <td class="textleft">格闘技クラスからフィットネスジムまで全て学べます。</td>
+                        </tr>
+                        <tr>
+                            <td width="20%" class="font-weight-700">中学生</td>
+                            <td width="20%"><span class="font-28">5,980</span> 円 / 月</td>
+                            <td class="textleft">キックボクシングまたはブラジリアン柔術がお好きな週2回学べます。</td>
+                        </tr>
+                        <tr>
+                            <td width="20%" class="font-weight-700">キッズキック</td>
+                            <td width="20%"><span class="font-28">5,980</span> 円 / 月</td>
+                            <td class="textleft">キッズキックは火、木、金、土のお好きな週2回学べます。 キック、レスリング両方受講される場合は7,980円になります。</td>
+                        </tr>
+                        <tr>
+                            <td width="20%" class="font-weight-700">キッズレスリング</td>
+                            <td width="20%"><span class="font-28">3,980</span> 円 / 月</td>
+                            <td class="textleft">キック、レスリング両方受講される場合は7,980円になります。</td>
+                        </tr>
+                        <tr>
+                            <td width="20%" class="font-weight-700">フリートレーニング</td>
+                            <td width="20%"><span class="font-28">5,980</span> 円 / 月</td>
+                            <td class="textleft">営業時間の間6Fトレーニングジムをご利用できます。BULL/PRECOR/BODYMASTERS/世界最高品質のマシンをご堪能ください。</td>
+                        </tr>
+                        <tr>
+                            <td width="20%" class="font-weight-700">外国人（男性）</td>
+                            <td width="20%"><span class="font-28">6,980</span> 円 / 月</td>
+                            <td class="textleft"><p class="font-16">外国籍の方（男性）の料金です。</p>
+                                <p class="font-16">格闘技クラスからフィットネスジムまで全て学べます。</p></td>
+                        </tr>
+                        <tr>
+                            <td width="20%" class="font-weight-700">外国人（女性）</td>
+                            <td width="20%"><span class="font-28">5,980</span> 円 / 月</td>
+                            <td class="textleft"><p class="font-16">外国籍の方（女性）の料金です。</p>
+                                <p class="font-16">格闘技・ダンス系クラスからフィットネスジムまで全て学べます。</p></td>
+                        </tr>
+                    </table>
+                    <div class="price-bottom margin-top-20">
+                        <div>
+                            <p class="font-weight-700">オプションサービス</p>
+                            <p>・レンタルロッカー：1,000円/月</p>
+                            <p>・レンタルバスケット：500円/月</p>
+                            <p>・柔術着レンタル：1回 500円</p>
+                            <p>・柔術着クリーニング：1回 300円</p>
+                        </div>
+                        <div class="mobile-hidden">
+                            <p class="font-weight-700">会費はすべて税込価格になります。</p>
+                        </div>
+                    </div>
                     <img class="width-100 mobile-show" src="<?php bloginfo('template_directory'); ?>/assets/images/fees/img.png"/>
                 </div>
             </div>
-            <div class="row">
+            <div class="row margin-top-30">
                 <div class="col-12">
                     <p class="font-16 font-weight-700">当ジムでは入会金はいただいておりません。</p>
                     <p class="font-16 font-weight-700">翌月の月会費から、クレジットカード決済、または銀行・郵便口座より自動振替いたします。</p>

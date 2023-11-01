@@ -20,8 +20,8 @@ get_header(); ?>
             </div>
         </div>
         <div id="slide-mobile">
-            <div id="jssor_2" style="position:relative;top:0px;left:0px;width:375px;height:480px;overflow:hidden;">
-                <div data-u="slides" style="position:absolute;top:0px;left:0px;width:375px;height:480px;overflow:hidden;">
+            <div id="jssor_2" style="position:relative;top:0px;left:0px;width:390px;height:500px;overflow:hidden;">
+                <div data-u="slides" style="position:absolute;top:0px;left:0px;width:390px;height:500px;overflow:hidden;">
                     <div><img data-u="image" src="<?php bloginfo('template_directory'); ?>/assets/images/slider-mobiles/1.png" /></div>
                     <div><img data-u="image" src="<?php bloginfo('template_directory'); ?>/assets/images/slider-mobiles/2.png" /></div>
                     <div><img data-u="image" src="<?php bloginfo('template_directory'); ?>/assets/images/slider-mobiles/3.png" /></div>
@@ -319,6 +319,8 @@ get_header(); ?>
       $( "#dialog" ).dialog( "open" );
     });
   } );
+
+  RODEOS.home();
 </script>
 <div id="header-bot">
     <a href="/free-trial/">
