@@ -203,7 +203,7 @@ get_header(); ?>
                         <div class="flex-center">
                             <div class="div-floor">
                                 <img class="max-width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/floors/floor6.png"/>
-                                <a class="a-cam4" href="<?php bloginfo('template_directory'); ?>/assets/images/floors/cam4.png" data-lightbox="roadtrip1" data-title="ジムスペース"><img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/camera.png"/> </a>
+                                <a class="a-cam4" href="<?php bloginfo('template_directory'); ?>/assets/images/floors/cam4.jpg" data-lightbox="roadtrip1" data-title="ジムスペース"><img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/camera.png"/> </a>
                             </div>
                         </div>
                     </div>

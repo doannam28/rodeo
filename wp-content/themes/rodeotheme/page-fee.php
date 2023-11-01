@@ -99,7 +99,63 @@ get_header(); ?>
                                 <p class="font-16">格闘技・ダンス系クラスからフィットネスジムまで全て学べます。</p></td>
                         </tr>
                     </table>
-                    <div class="price-bottom margin-top-20">
+                    <div class="mobile-show">
+                        <div class="wraper-table">
+                            <p class="p-btn font-weight-700">一般会員</p>
+                            <p class="margin-top-10 text-center"><span class="font-28">9,980</span> 円 / 月</p>
+                            <p class="margin-top-10">格闘技クラスからフィットネスジムまで全て学べます。</p>
+
+                            <p class="p-btn font-weight-700 margin-top-30">レディース会員</p>
+                            <p class="margin-top-10 text-center"><span class="font-28">7,980</span> 円 / 月</p>
+                            <p class="margin-top-10">レディースクラスを含む全ての格闘技クラス、ダンス系クラスからフィットネスジムまで学べます。<span class="color-yellow">無料体験後一週間以内にご入会されますとレディース会員7,980円が5,980円</span></p>
+
+                            <p class="p-btn font-weight-700 margin-top-30">大学生・専門学生</p>
+                            <p class="margin-top-10 text-center"><span class="font-28">8,980</span> 円 / 月</p>
+                            <p class="margin-top-10">格闘技クラスからフィットネスジムまで全て学べます。</p>
+
+                            <p class="p-btn font-weight-700 margin-top-30">高校生</p>
+                            <p class="margin-top-10 text-center"><span class="font-28">7,980</span> 円 / 月</p>
+                            <p class="margin-top-10">格闘技クラスからフィットネスジムまで全て学べます。</p>
+
+                            <p class="p-btn font-weight-700 margin-top-30">中学生</p>
+                            <p class="margin-top-10 text-center"><span class="font-28">5,980</span> 円 / 月</p>
+                            <p class="margin-top-10">キックボクシングまたはブラジリアン柔術がお好きな週2回学べます。</p>
+
+                            <p class="p-btn font-weight-700 margin-top-30">キッズキック</p>
+                            <p class="margin-top-10 text-center"><span class="font-28">5,980</span> 円 / 月</p>
+                            <p class="margin-top-10">キッズキックは火、木、金、土のお好きな週2回学べます。 キック、レスリング両方受講される場合は7,980円になります。</p>
+
+                            <p class="p-btn font-weight-700 margin-top-30">キッズレスリング</p>
+                            <p class="margin-top-10 text-center"><span class="font-28">3,980</span> 円 / 月</p>
+                            <p class="margin-top-10">キック、レスリング両方受講される場合は7,980円になります。</p>
+
+                            <p class="p-btn font-weight-700 margin-top-30">フリートレーニング</p>
+                            <p class="margin-top-10 text-center"><span class="font-28">5,980</span> 円 / 月</p>
+                            <p class="margin-top-10">営業時間の間6Fトレーニングジムをご利用できます。BULL/PRECOR/BODYMASTERS/世界最高品質のマシンをご堪能ください。</p>
+
+                            <p class="p-btn font-weight-700 margin-top-30">外国人（男性）</p>
+                            <p class="margin-top-10 text-center"><span class="font-28">6,980</span> 円 / 月</p>
+                            <p class="margin-top-10">外国籍の方（男性）の料金です。</p>
+                            <p class="font-16">格闘技クラスからフィットネスジムまで全て学べます。</p>
+
+                            <p class="p-btn font-weight-700 margin-top-30">外国人（女性）</p>
+                            <p class="margin-top-10 text-center"><span class="font-28">5,980</span> 円 / 月</p>
+                            <p class="margin-top-10">外国籍の方（女性）の料金です。</p>
+                            <p class="font-16">格闘技・ダンス系クラスからフィットネスジムまで全て学べます。</p>
+
+                            <div class="margin-top-50">
+                                <p class="font-weight-700">会費はすべて税込価格になります。</p>
+                            </div>
+                            <div class="margin-top-50">
+                                <p class="font-weight-700">オプションサービス</p>
+                                <p>・レンタルロッカー：1,000円/月</p>
+                                <p>・レンタルバスケット：500円/月</p>
+                                <p>・柔術着レンタル：1回 500円</p>
+                                <p>・柔術着クリーニング：1回 300円</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-bottom margin-top-20 mobile-hidden">
                         <div>
                             <p class="font-weight-700">オプションサービス</p>
                             <p>・レンタルロッカー：1,000円/月</p>
@@ -111,7 +167,6 @@ get_header(); ?>
                             <p class="font-weight-700">会費はすべて税込価格になります。</p>
                         </div>
                     </div>
-                    <img class="width-100 mobile-show" src="<?php bloginfo('template_directory'); ?>/assets/images/fees/img.png"/>
                 </div>
             </div>
             <div class="row margin-top-30">

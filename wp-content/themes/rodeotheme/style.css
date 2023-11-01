@@ -63,7 +63,7 @@ a {
 #header-bot{
     position: fixed;
     z-index: 9;
-    top: 400px;
+    top: 500px;
     right: 20px;
     display: none;
 }
@@ -568,6 +568,18 @@ body{
     }
 }
 @media only screen and (max-width: 768px) {
+    .wraper-table p{
+        font-size: 16px;
+    }
+    .wraper-table{
+        padding: 32px 16px;
+        background: rgba(6, 6, 6, 0.8);
+    }
+    .p-btn{
+        background: #606060;
+        padding: 10px;
+        text-align: center;
+    }
     #google_translate_element_mobile{
         margin-bottom: 10px;
     }
@@ -578,7 +590,7 @@ body{
         opacity: 1 !important;
     }
     #dialog{
-        padding-bottom:20px;
+        padding-bottom:40px;
     }
     .max-width-920 {
         max-width: 100% !important;
