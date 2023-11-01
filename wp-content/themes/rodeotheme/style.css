@@ -698,12 +698,34 @@ body{
     right: 0px;
     max-width: 367px;
 }
+.row-a{
+    background: #fff;
+    color: #090909;
+}
+.row-q p{
+    line-height: 48px;
+}
+.row-q{
+    background: #090909;
+}
+.row-q-a img{
+    margin-right: 20px;
+    width: 48px;
+    height: 48px;
+}
+.row-q-a{
+    display: flex;
+    padding: 12px 20px;
+}
 @media only screen and (min-width: 1280px) {
     .max-width-1032{
         max-width: 1032px !important;
     }
 }
 @media only screen and (max-width: 768px) {
+    .row-q p{
+        line-height: 28px;
+    }
     .div-top-why .div-text{
         bottom: 0px;
     }

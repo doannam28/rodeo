@@ -531,9 +531,116 @@ get_header(); ?>
                 <h2 class="title-massage">FAQ</h2>
                 <p class="p-titlt-12">よくあるご質問</p>
             </div>
-            <img class="width-100 mobile-hidden margin-top-30" src="<?php bloginfo('template_directory'); ?>/assets/images/content-qa.png"/>
-            <img class="width-100 mobile-show margin-top-30" src="<?php bloginfo('template_directory'); ?>/assets/images/content-qa-mobile.png"/>
-            <p class="margin-top-30">その他の質問はお問い合わせください。</p>
+            <div class="row margin-top-20">
+                <div class="col-12">
+                    <div class="row-q-a row-q">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-q.png"/>
+                        <p class="font-20 font-weight-700">どのような施設ですか？</p>
+                    </div>
+                    <div class="row-q-a row-a">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-a.png"/>
+                        <p class="font-16">月額9,980円（女性7,980円）で国内最高級の格闘技施設&トレーナーのもと、ボクシング・キックボクシング・ブラジリアン柔術・総合格闘技が学べるファイティングアカデミー！さらに、肉体改造・身体能力アップにも力を入れており全てのアスリートにも満足のフィットネスジムも完備！女性には「美しく歳を重ねる」をテーマに美しく輝ける女性を目指すダンスフィットネスプログラムをご用意してます！</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-20">
+                <div class="col-12">
+                    <div class="row-q-a row-q">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-q.png"/>
+                        <p class="font-20 font-weight-700">運動経験がほぼないですが大丈夫ですか？</p>
+                    </div>
+                    <div class="row-q-a row-a">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-a.png"/>
+                        <p class="font-16">もちろん大丈夫です！経験豊富なトレーナーが今まで運動経験のない方にも一人ひとりに合った、無理なく成果を目指せるトレーニング・食事をご提案しますのでご安心ください。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-20">
+                <div class="col-12">
+                    <div class="row-q-a row-q">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-q.png"/>
+                        <p class="font-20 font-weight-700">トレーニングジムは指導してもらえるのですか？</p>
+                    </div>
+                    <div class="row-q-a row-a">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-a.png"/>
+                        <p class="font-16">もちろん指導いたします。初心者の方にはパーソナルトレーニング（30分計4回）が無料で受講できますので安心してマシンの使い方、基本フォームを学べます。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-20">
+                <div class="col-12">
+                    <div class="row-q-a row-q">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-q.png"/>
+                        <p class="font-20 font-weight-700">入会前に見学することはできますか？</p>
+                    </div>
+                    <div class="row-q-a row-a">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-a.png"/>
+                        <p class="font-16">営業時間の間いつでもご見学できます。また安心して入会していただく為に無料体験をご用意してますので無料体験後、ご入会をご検討ください。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-20">
+                <div class="col-12">
+                    <div class="row-q-a row-q">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-q.png"/>
+                        <p class="font-20 font-weight-700">更衣室はありますか？</p>
+                    </div>
+                    <div class="row-q-a row-a">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-a.png"/>
+                        <p class="font-16">男性、女性それぞれの更衣室がございます。また貴重品につきましては、自己管理となりますので予めご了承ください。また格闘技ギアやシューズなどを置いていく方のために、レンタルロッカーをご用意しております。こちらは別途有料となります。 予めご了承ください。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-20">
+                <div class="col-12">
+                    <div class="row-q-a row-q">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-q.png"/>
+                        <p class="font-20 font-weight-700">シャワールームはありますか？</p>
+                    </div>
+                    <div class="row-q-a row-a">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-a.png"/>
+                        <p class="font-16">男性、女性それぞれのシャワールームがございます。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-20">
+                <div class="col-12">
+                    <div class="row-q-a row-q">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-q.png"/>
+                        <p class="font-20 font-weight-700">ボクシンググローブはレンタルできますか？</p>
+                    </div>
+                    <div class="row-q-a row-a">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-a.png"/>
+                        <p class="font-16">格闘技で使用するグローブやレッグガードはレンタル無料ですので初心者の方でも安心して始められます。また柔術着のレンタルは別途有料となります。予めご了承ください。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-20">
+                <div class="col-12">
+                    <div class="row-q-a row-q">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-q.png"/>
+                        <p class="font-20 font-weight-700">トレーニングジムは専用の内履きが必要になりますか？</p>
+                    </div>
+                    <div class="row-q-a row-a">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-a.png"/>
+                        <p class="font-16">外履きの使用はご遠慮ください。運動に適した内履きをご使用ください。一般的に運動に適さない靴（サンダル、ゴム草履、 ヒール、ブーツなど）や裸足での施設利用は禁止とさせていただきます。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-20">
+                <div class="col-12">
+                    <div class="row-q-a row-q">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-q.png"/>
+                        <p class="font-20 font-weight-700">駐車場、駐輪場はありますか？</p>
+                    </div>
+                    <div class="row-q-a row-a">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/img-a.png"/>
+                        <p class="font-16">駐車場はジム近くのコインパーキングをご利用ください。
+                            バイク、自転車の方はビル敷地内に若干、停めれますが数に限りがあります。予めご了承ください。</p>
+                    </div>
+                </div>
+            </div>
+           <p class="margin-top-30">その他の質問はお問い合わせください。</p>
             <a href="/free-trial/" style="width: 220px;" class="button margin-top-30"><span>&nbsp;</span> お問い合わせフォーム</a>
         </div>
     </section>
