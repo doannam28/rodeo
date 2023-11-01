@@ -39,7 +39,6 @@
                 <div id="menu-top" class="flex-end">
                     <p class="p-lang">
                     <div id="google_translate_element"></div>
-                        <!--<a href="/en" class="a-en">English</a> <span>|</span> <a class="a-ja active" href="/ja">日本語</a>-->
                     </p>
                     <p class="p-social">
                         <a href="https://www.youtube.com/channel/UCx2JkRx2PA_pdj2_CYWXB9g" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/YouTube.svg"/></a>
@@ -64,7 +63,7 @@
                                     <li class="nav-item"><a class="nav-link" href="/access/">アクセス</a></li>
                                     <li class="nav-item"><a class="nav-link" href="https://rodeostyle.weebly.com/blog" target="_blank">Blog</a></li>
                                     <li class="nav-item"><a class="nav-link" href=" /free-trial/">無料体験</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="/contact/">お問合せ</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/">お問合せ</a></li>
                                     <li class="nav-item nav-item-mobile">
                                         <p class="p-lang">
                                         <div id="google_translate_element_mobile"></div>
@@ -79,7 +78,6 @@
                                           }
                                         </script>
                                         <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                                           <!-- <a href="/" class="a-en">English</a> <span>|</span> <a class="a-ja active" href="/">日本語</a>-->
                                         </p>
                                     </li>
                                     <li class="nav-item nav-item-mobile">

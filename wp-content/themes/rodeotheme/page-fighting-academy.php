@@ -16,7 +16,7 @@ get_header(); ?>
         </div>
     </section>
     <section id="block-member" class="bg-222 padding-tb-50">
-        <div class="container">
+        <div class="container max-width-920">
             <div class="div-title-w">
                 <h2>ファイティングアカデミー</h2>
                 <p class="under"></p>
@@ -83,7 +83,7 @@ get_header(); ?>
                     </p>
                 </div>
                 <div class="col-12 col-md-6 col-right">
-                    <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/fighting-academy/avata4.png"/>
+                    <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/fighting-academy/avata6.png"/>
                     <p class="font-20 margin-top-30">加藤 鞍登児</p>
                     <p class="font-12">ANTONY KATO</p>
                     <p class="margin-top-20 font-16">2009年1月8日​ 横須賀市出身</p>
@@ -98,7 +98,7 @@ get_header(); ?>
         </div>
     </section>
     <section class="bg-09 padding-tb-50 block-member-2">
-        <div class="container">
+        <div class="container max-width-920">
             <div class="div-title-w">
                 <h2>ブラジリアン柔術</h2>
                 <p class="under"></p>
@@ -138,7 +138,7 @@ get_header(); ?>
         </div>
     </section>
     <section class="bg-222 padding-tb-50 block-member-2">
-        <div class="container">
+        <div class="container max-width-920">
             <div class="div-title-w">
                 <h2>ブラジリアン柔術</h2>
                 <p class="under"></p>
@@ -158,7 +158,7 @@ get_header(); ?>
         </div>
     </section>
     <section class="bg-09 padding-tb-50 block-member-2">
-        <div class="container">
+        <div class="container max-width-920">
             <div class="div-title-w">
                 <h2>超初心者MMAクラス</h2>
                 <p class="under"></p>
@@ -176,7 +176,7 @@ get_header(); ?>
         </div>
     </section>
     <section class="bg-222 padding-tb-50 block-member-2">
-        <div class="container">
+        <div class="container max-width-920">
             <div class="div-title-w">
                 <h2>レディースキックボクシング</h2>
                 <p class="under"></p>
@@ -197,7 +197,7 @@ get_header(); ?>
         </div>
     </section>
     <section class="bg-09 padding-tb-50 block-member-2">
-        <div class="container">
+        <div class="container max-width-920">
             <div class="div-title-w">
                 <h2>WEEKENDボクシング</h2>
                 <p class="under"></p>
@@ -215,7 +215,7 @@ get_header(); ?>
         </div>
     </section>
     <section class="bg-222 padding-tb-50 block-member-2">
-        <div class="container">
+        <div class="container max-width-920">
             <div class="div-title-w">
                 <h2>RODEOキッズファイトクラブ</h2>
                 <p class="under"></p>
@@ -236,7 +236,7 @@ get_header(); ?>
         </div>
     </section>
     <section class="bg-09 padding-tb-50 block-member-2">
-        <div class="container">
+        <div class="container max-width-920">
             <div class="div-title-w">
                 <h2>COMBAT HIIT</h2>
                 <p class="under"></p>

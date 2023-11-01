@@ -34,8 +34,8 @@ get_header(); ?>
                     <p class="font-16 line-height-32">現在の舞踊活動の基盤となるクラシックバレエを3歳より始める。スペイン留学時にはフラメンコに魅了され本場のフラメンコを1から学ぶ。2012年にベリーダンスのステージに衝撃を受けベリーダンスを学び始め、国内様々な大会でファイナリストに選出。現在は舞踊活動の他、ダンス経験を活かしフィットネスインストラクターとして幅広い活動を行う。</p>
                     <p class="font-16 line-height-32">2022年フラメンコフュージョングループ「LDA(エルダ)」の活動をスタートする。</p>
                     <p class="p-social margin-top-20 p-social-member">
-                        <a href="https://www.instagram.com/kato_yasutaka/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Instagram.svg"/></a>
-                        <a href="https://www.facebook.com/naoyuki.kotani.1?fref=ts" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Facebook.png"/></a>
+                        <a href="https://www.instagram.com/hikari_luz82/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Instagram.svg"/></a>
+                        <a href="https://www.facebook.com/hikari.kato.77" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Facebook.png"/></a>
                     </p>
                 </div>
             </div>

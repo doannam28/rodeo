@@ -568,6 +568,9 @@ body{
     }
 }
 @media only screen and (max-width: 768px) {
+    #wrapper-header{
+        position: fixed;
+    }
     .wraper-table p{
         font-size: 16px;
     }
