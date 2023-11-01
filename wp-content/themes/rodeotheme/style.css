@@ -346,6 +346,10 @@ a {
     font-weight: 900;
     color: #090909;
     text-decoration: underline #fff;
+    -webkit-text-decoration-line:  underline !important;
+    -webkit-text-decoration-color: #fff !important;
+    -webkit-text-decoration-style: solid !important;
+    -webkit-text-decoration-thickness: 1px !important;
 }
 #footer .block1{
     background: url("assets/images/footer1.png") center center no-repeat;
@@ -568,6 +572,10 @@ body{
     }
 }
 @media only screen and (max-width: 768px) {
+    .lightbox {
+        position: fixed !important;
+        top: 25% !important;
+    }
     #wrapper-header{
         position: fixed;
     }
@@ -646,12 +654,34 @@ body{
         margin-top: 10px;
     }
     #footer .block1 h2{
-        width: 290px;
         font-size: 32px;
     }
+    #footer .block1 .left-top{
+        top: 8px;
+        left: 8px;
+    }
+    #footer .block1 .left-bot{
+        bottom:8px;
+        left: 8px;
+    }
+    #footer .block1 .right-top{
+        top: 8px;
+        right: 8px;
+    }
+    #footer .block1 .right-bot{
+        bottom: 8px;
+        right: 8px;
+    }
+    #footer .block1 .p-dot{
+        width: 8px;
+        height: 8px;
+        background: #909090;
+        border-radius: 50%;
+        position: absolute;
+    }
     #footer .block1{
-        background: url("assets/images/footer1-mobile.png") center center no-repeat;
-        background-size: cover;
+        background: #DDD406;
+        position: relative;
     }
     .body-price{
         padding: 10px;
