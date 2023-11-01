@@ -261,7 +261,7 @@ get_header(); ?>
             <img class="width-100 mobile-hidden margin-top-30" src="<?php bloginfo('template_directory'); ?>/assets/images/content-qa.png"/>
             <img class="width-100 mobile-show margin-top-30" src="<?php bloginfo('template_directory'); ?>/assets/images/content-qa-mobile.png"/>
             <p class="margin-top-30">その他の質問はお問い合わせください。</p>
-            <a href="/" style="width: 220px;" class="button margin-top-30"><span>&nbsp;</span> お問い合わせフォーム</a>
+            <a href="/free-trial/" style="width: 220px;" class="button margin-top-30"><span>&nbsp;</span> お問い合わせフォーム</a>
         </div>
     </section>
 </div>
