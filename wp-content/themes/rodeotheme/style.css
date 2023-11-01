@@ -60,6 +60,28 @@ a {
 #header-top #logo{
     margin-top: 25px;
 }
+#header-bot div p{
+    text-decoration: 2px underline #fff;
+    -webkit-text-decoration-line: underline !important;
+    -webkit-text-decoration-color: #fff !important;
+    -webkit-text-decoration-style: solid !important;
+    -webkit-text-decoration-thickness: 1px !important;
+}
+#bor-header-bot p{
+    color: #222222;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+#bor-header-bot{
+    width: 172px;
+    height: 172px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("assets/images/FreeTrial.png") center center no-repeat;
+    background-size: cover;
+}
 #header-bot{
     position: fixed;
     z-index: 9;
@@ -202,8 +224,14 @@ a {
     background: url("assets/images/bg-intro.png") center center no-repeat;
     padding: 120px 0px;
 }
+.font-48{
+    font-size: 48px !important;
+}
 .font-24{
     font-size: 24px !important;
+}
+.font-22{
+    font-size: 22px !important;
 }
 .font-12{
     font-size: 12px !important;
@@ -566,12 +594,175 @@ body{
     display: flex;
     justify-content: space-between;
 }
+#introduction{
+    background: rgba(0, 0, 0, 0.8);
+}
+#wrap-introduction{
+    background: rgba(6, 6, 6, 0.8);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.font-family-fc{
+    font-family: 'I.F.C. HARDBALL';
+}
+.font-18{
+    font-size: 18px;
+}
+.font-56{
+    font-size: 56px;
+    line-height: 56px;
+}
+.color-red{
+    color: #CF0E0E;
+}
+#div-left-intro{
+    width: 350px;
+    border-bottom: 2px solid #CF0E0E;
+    padding-bottom: 30px;
+}
+.text-transform-uppercase{
+    text-transform: uppercase;
+}
+.div-top-why{
+    padding-bottom: 100px;
+    position: relative;
+}
+.div-top-why .div-text{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.why-item{
+    padding: 24px 16px;
+    border-radius: 4px;
+    border: 3px solid #606060;
+    background: #222222;
+    height: 285px;
+}
+.span-number{
+    border-bottom: 4px solid #DDD406;
+    line-height: 40px;
+}
+#div-logo-r img{
+    width: 187px;
+    height: 187px;
+}
+#div-logo-r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.row2-why{
+    margin-top: 24px;
+}
+.item-flow{
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    border: 2px solid #909090;
+    padding: 24px 20px;
+    min-height: 340px;
+}
+.item-top img{
+    max-width: 160px;
+}
+.item-top{
+    display: flex;
+    justify-content: center;
+}
+.color-09{
+    color: #090909;
+}
+.img-mt{
+    position: absolute;
+    top: calc(50% - 9px);
+    right: -18px;
+}
+.p-txt-why{
+    background: #CF0E0E;
+    display: inline-block;
+    color: #090909;
+    font-size: 48px;
+    font-weight: 700;
+}
+.div-text .container{
+    position: relative;
+}
+.img-text{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    max-width: 367px;
+}
 @media only screen and (min-width: 1280px) {
     .max-width-1032{
         max-width: 1032px !important;
     }
 }
 @media only screen and (max-width: 768px) {
+    .div-top-why .div-text{
+        bottom: 0px;
+    }
+    .div-top-why{
+        padding-bottom: 130px;
+    }
+    .p-txt-why{
+        font-size: 34px;
+    }
+    .img-text img{
+        max-width: 295px;
+    }
+    .img-text{
+        max-width: 100%;
+        position: relative;
+        margin-top: 20px;
+        display: flex;
+        justify-content: end;
+    }
+    .img-mt{
+        position: absolute;
+        left: calc(50% - 4px) !important;
+        bottom: -21px !important;
+        rotate: -270deg;
+        top: auto;
+    }
+    .item-flow{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .row2-why{
+        margin-top: 16px;
+    }
+    #div-logo-r img{
+        width: 160px;
+        height: 160px;
+    }
+    .font-16-mobile{
+        font-size: 16px !important;
+    }
+    .margin-top-16-mobile{
+        margin-top: 16px;
+    }
+    .why-item{
+        height: 300px;
+    }
+    #div-left-intro{
+        margin-bottom: 30px;
+    }
+    #massage{
+        padding: 30px 0px;
+    }
+    #wrap-introduction{
+        padding: 20px;
+        display: block;
+    }
+    #div-left-intro{
+        width: 100%;
+    }
     .lightbox {
         position: fixed !important;
         top: 25% !important;
@@ -770,11 +961,15 @@ body{
         display: block;
         overflow: hidden;
     }
-    #header-bot img{
-        width: 140px;
-    }
     #logo-banner{
         top: 50%;
+    }
+    #bor-header-bot {
+        width: 144px;
+        height: 144px;
+    }
+    #bor-header-bot p{
+        font-size: 17px;
     }
     #header-bot{
         top: 345px;

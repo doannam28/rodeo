@@ -87,18 +87,25 @@ get_header(); ?>
             </div>
         </div>
     </section>
-    <section id="introduction" class="mobile-hidden">
+    <section id="introduction" class="padding-tb-20">
         <div class="container max-width-1032">
-            <div class="col-12">
-                <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/Introduction.png"/>
-            </div>
-        </div>
-    </section>
-    <section id="introduction-mobile" class="mobile-show">
-        <div class="container">
-            <div class="col-12">
-                <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/Introduction-mobile.png"/>
-            </div>
+           <div id="wrap-introduction">
+               <div id="div-left-intro">
+                   <p class="font-12 font-weight-700 color-red">Introduction</p>
+                   <p class="font-56 font-family-fc color-red text-transform-uppercase margin-top-10">No Style Like RodeoStyle</p>
+                   <p class="font-22 font-weight-700 color-red margin-top-10">ロデオスタイルのようなスタイルは他にない</p>
+               </div>
+               <div id="div-right-intro">
+                   <p class="font-18 font-weight-700">フィットネスとは —。</p>
+                   <p class="font-18 font-weight-700 margin-top-20">短期間で得られるダイエットや</p>
+                   <p class="font-18 font-weight-700">ただ重いウェイトを持ち上げるという意味じゃない</p>
+                   <p class="font-18 font-weight-700 margin-top-20">誰もがトレーニングを習慣にすることにより</p>
+                   <p class="font-18 font-weight-700">生活の質を上げることこそが真の目的</p>
+                   <p class="font-18 font-weight-700 margin-top-20">これは自分自身、ココロとカラダ</p>
+                   <p class="font-18 font-weight-700">そしてやり直しがきかない人生への投資</p>
+                   <p class="font-18 font-weight-700 margin-top-20">No style like RodeoStyle</p>
+               </div>
+           </div>
         </div>
     </section>
     <section id="massage">
@@ -119,17 +126,113 @@ get_header(); ?>
             </div>
         </div>
     </section>
-    <section class="mobile-hidden">
-        <div class="container max-width-1032">
-            <div class="col-12">
-                <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/why-rodeo-style.png"/>
+    <section>
+        <div class="div-top-why mobile-hidden">
+            <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/why.png"/>
+            <div class="div-text">
+                <div class="container max-width-1032">
+                    <div class="wrap-txt">
+                        <div>
+                            <p class="p-txt-why">RODEO STYLE が</p>
+                        </div>
+                        <div>
+                            <p class="p-txt-why">選ばれる</p>
+                        </div>
+                        <div>
+                            <p class="p-txt-why">7つの理由</p>
+                        </div>
+                    </div>
+                    <img class="img-text" src="<?php bloginfo('template_directory'); ?>/assets/images/why-text.png"/>
+                </div>
             </div>
         </div>
-    </section>
-    <section class="mobile-show">
-        <div class="container">
-            <div class="col-12">
-                <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/why-rodeo-style-mobile.png"/>
+        <div class="div-top-why mobile-show">
+            <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/why-mobile.png"/>
+            <div class="div-text">
+                <div class="container max-width-1032">
+                    <div class="wrap-txt">
+                        <div>
+                            <p class="p-txt-why">RODEO STYLE が</p>
+                        </div>
+                        <div>
+                            <p class="p-txt-why">選ばれる</p>
+                        </div>
+                        <div>
+                            <p class="p-txt-why">7つの理由</p>
+                        </div>
+                    </div>
+                    <div class="img-text">
+                        <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/why-text.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container max-width-1032">
+            <div class="row margin-top-30">
+                <div class="col-6 col-md-3">
+                    <div class="why-item">
+                        <p class="font-family-fc text-center"><span class="span-number font-48">1</span></p>
+                        <p class="font-22 font-16-mobile font-weight-700 margin-top-20 text-center">いつでも全て</p>
+                        <p class="font-22 font-16-mobile font-weight-700 text-center">通い放題！</p>
+                        <p class="margin-top-20">月額9,980円（女性7,980円）で格闘技・ダンスフィットネスクラスからトレーニングジムまで、いつでも利用できます</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="why-item">
+                        <p class="font-family-fc text-center"><span class="span-number font-48">2</span></p>
+                        <p class="font-22 font-weight-700 margin-top-20 text-center font-16-mobile">驚きの</p>
+                        <p class="font-22 font-weight-700 text-center font-16-mobile">毎月220クラス！</p>
+                        <p class="margin-top-20">初心者、女性、キッズ、競技者全てのニーズに対応してますので、あなたにぴったりのクラスが見つかります</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 margin-top-16-mobile">
+                    <div class="why-item">
+                        <p class="font-family-fc text-center"><span class="span-number font-48">3</span></p>
+                        <p class="font-22 font-weight-700 margin-top-20 text-center font-16-mobile">充実の</p>
+                        <p class="font-22 font-weight-700 text-center font-16-mobile">インストラクター！</p>
+                        <p class="margin-top-20">各分野の経験豊富な専門家が格闘技&フィットネスの素晴らしさをあなたに教えます</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 margin-top-16-mobile">
+                    <div class="why-item">
+                        <p class="font-family-fc text-center"><span class="span-number font-48">4</span></p>
+                        <p class="font-22 font-weight-700 margin-top-20 text-center font-16-mobile">初心者にも安心の</p>
+                        <p class="font-22 font-weight-700 text-center font-16-mobile">無料パーソナル</p>
+                        <p class="font-22 font-weight-700 text-center font-16-mobile">トレーニング！</p>
+                        <p class="margin-top-20">トレーニングジム初心者の方はパーソナルトレーニング（30分計4回）が無料で受講できます</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row row2-why">
+                <div class="col-6 col-md-3">
+                    <div class="why-item">
+                        <p class="font-family-fc text-center"><span class="span-number font-48">5</span></p>
+                        <p class="font-22 font-16-mobile font-weight-700 margin-top-20 text-center">充実のマシン</p>
+                        <p class="font-22 font-16-mobile font-weight-700 text-center">ラインナップ！</p>
+                        <p class="margin-top-20">BULL / PRECOR / BODY MASTERS、世界最高品質のマシンをご堪能ください</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="why-item">
+                        <p class="font-family-fc text-center"><span class="span-number font-48">6</span></p>
+                        <p class="font-22 font-weight-700 margin-top-20 text-center font-16-mobile">グローブレンタル</p>
+                        <p class="font-22 font-weight-700 text-center font-16-mobile">無料！</p>
+                        <p class="margin-top-20">格闘技クラスで使用するグローブ、レッグガードがレンタル無料ですので初めての方にも安心</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 margin-top-16-mobile">
+                    <div class="why-item">
+                        <p class="font-family-fc text-center"><span class="span-number font-48">7</span></p>
+                        <p class="font-22 font-weight-700 margin-top-20 text-center font-16-mobile">朝7:00から</p>
+                        <p class="font-22 font-weight-700 text-center font-16-mobile">オープン！</p>
+                        <p class="margin-top-20">トレーニングジムはもちろんクラスプログラムも朝7:00よりご用意してます</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 margin-top-16-mobile">
+                    <div id="div-logo-r">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo-ro.png">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -224,10 +327,133 @@ get_header(); ?>
                 <p class="p-titlt-12">料金システム</p>
             </div>
             <div class="body-price margin-top-30">
-                <img class="mobile-hidden width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/table-price.png"/>
-                <img class="mobile-show width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/table-price-mobile.png"/>
-                <img class="margin-top-30 mobile-hidden width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/content-price.png"/>
-                <img class="margin-top-30 mobile-show width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/content-price-mobile.png"/>
+                <table id="tb-price" class="mobile-hidden">
+                    <thead>
+                    <td width="20%">会員種別</td>
+                    <td width="20%">会費</td>
+                    <td>内容</td>
+                    </thead>
+                    <tr>
+                        <td width="20%" class="font-weight-700">一般会員</td>
+                        <td width="20%"><span class="font-28">9,980</span> 円 / 月</td>
+                        <td class="textleft">格闘技クラスからフィットネスジムまで全て学べます。</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="font-weight-700">レディース会員</td>
+                        <td width="20%"><span class="font-28">7,980</span> 円 / 月</td>
+                        <td class="textleft">レディースクラスを含む全ての格闘技クラス、ダンス系クラスからフィットネスジムまで学べます。<span class="color-yellow">無料体験後一週間以内にご入会されますとレディース会員7,980円が5,980円</span></td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="font-weight-700">大学生・専門学生</td>
+                        <td width="20%"><span class="font-28">8,980</span> 円 / 月</td>
+                        <td class="textleft">格闘技クラスからフィットネスジムまで全て学べます。</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="font-weight-700">高校生</td>
+                        <td width="20%"><span class="font-28">7,980</span> 円 / 月</td>
+                        <td class="textleft">格闘技クラスからフィットネスジムまで全て学べます。</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="font-weight-700">中学生</td>
+                        <td width="20%"><span class="font-28">5,980</span> 円 / 月</td>
+                        <td class="textleft">キックボクシングまたはブラジリアン柔術がお好きな週2回学べます。</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="font-weight-700">キッズキック</td>
+                        <td width="20%"><span class="font-28">5,980</span> 円 / 月</td>
+                        <td class="textleft">キッズキックは火、木、金、土のお好きな週2回学べます。 キック、レスリング両方受講される場合は7,980円になります。</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="font-weight-700">キッズレスリング</td>
+                        <td width="20%"><span class="font-28">3,980</span> 円 / 月</td>
+                        <td class="textleft">キック、レスリング両方受講される場合は7,980円になります。</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="font-weight-700">フリートレーニング</td>
+                        <td width="20%"><span class="font-28">5,980</span> 円 / 月</td>
+                        <td class="textleft">営業時間の間6Fトレーニングジムをご利用できます。BULL/PRECOR/BODYMASTERS/世界最高品質のマシンをご堪能ください。</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="font-weight-700">外国人（男性）</td>
+                        <td width="20%"><span class="font-28">6,980</span> 円 / 月</td>
+                        <td class="textleft"><p class="font-16">外国籍の方（男性）の料金です。</p>
+                            <p class="font-16">格闘技クラスからフィットネスジムまで全て学べます。</p></td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="font-weight-700">外国人（女性）</td>
+                        <td width="20%"><span class="font-28">5,980</span> 円 / 月</td>
+                        <td class="textleft"><p class="font-16">外国籍の方（女性）の料金です。</p>
+                            <p class="font-16">格闘技・ダンス系クラスからフィットネスジムまで全て学べます。</p></td>
+                    </tr>
+                </table>
+                <div class="mobile-show">
+                    <div class="wraper-table">
+                        <p class="p-btn font-weight-700">一般会員</p>
+                        <p class="margin-top-10 text-center"><span class="font-28">9,980</span> 円 / 月</p>
+                        <p class="margin-top-10">格闘技クラスからフィットネスジムまで全て学べます。</p>
+
+                        <p class="p-btn font-weight-700 margin-top-30">レディース会員</p>
+                        <p class="margin-top-10 text-center"><span class="font-28">7,980</span> 円 / 月</p>
+                        <p class="margin-top-10">レディースクラスを含む全ての格闘技クラス、ダンス系クラスからフィットネスジムまで学べます。<span class="color-yellow">無料体験後一週間以内にご入会されますとレディース会員7,980円が5,980円</span></p>
+
+                        <p class="p-btn font-weight-700 margin-top-30">大学生・専門学生</p>
+                        <p class="margin-top-10 text-center"><span class="font-28">8,980</span> 円 / 月</p>
+                        <p class="margin-top-10">格闘技クラスからフィットネスジムまで全て学べます。</p>
+
+                        <p class="p-btn font-weight-700 margin-top-30">高校生</p>
+                        <p class="margin-top-10 text-center"><span class="font-28">7,980</span> 円 / 月</p>
+                        <p class="margin-top-10">格闘技クラスからフィットネスジムまで全て学べます。</p>
+
+                        <p class="p-btn font-weight-700 margin-top-30">中学生</p>
+                        <p class="margin-top-10 text-center"><span class="font-28">5,980</span> 円 / 月</p>
+                        <p class="margin-top-10">キックボクシングまたはブラジリアン柔術がお好きな週2回学べます。</p>
+
+                        <p class="p-btn font-weight-700 margin-top-30">キッズキック</p>
+                        <p class="margin-top-10 text-center"><span class="font-28">5,980</span> 円 / 月</p>
+                        <p class="margin-top-10">キッズキックは火、木、金、土のお好きな週2回学べます。 キック、レスリング両方受講される場合は7,980円になります。</p>
+
+                        <p class="p-btn font-weight-700 margin-top-30">キッズレスリング</p>
+                        <p class="margin-top-10 text-center"><span class="font-28">3,980</span> 円 / 月</p>
+                        <p class="margin-top-10">キック、レスリング両方受講される場合は7,980円になります。</p>
+
+                        <p class="p-btn font-weight-700 margin-top-30">フリートレーニング</p>
+                        <p class="margin-top-10 text-center"><span class="font-28">5,980</span> 円 / 月</p>
+                        <p class="margin-top-10">営業時間の間6Fトレーニングジムをご利用できます。BULL/PRECOR/BODYMASTERS/世界最高品質のマシンをご堪能ください。</p>
+
+                        <p class="p-btn font-weight-700 margin-top-30">外国人（男性）</p>
+                        <p class="margin-top-10 text-center"><span class="font-28">6,980</span> 円 / 月</p>
+                        <p class="margin-top-10">外国籍の方（男性）の料金です。</p>
+                        <p class="font-16">格闘技クラスからフィットネスジムまで全て学べます。</p>
+
+                        <p class="p-btn font-weight-700 margin-top-30">外国人（女性）</p>
+                        <p class="margin-top-10 text-center"><span class="font-28">5,980</span> 円 / 月</p>
+                        <p class="margin-top-10">外国籍の方（女性）の料金です。</p>
+                        <p class="font-16">格闘技・ダンス系クラスからフィットネスジムまで全て学べます。</p>
+
+                        <div class="margin-top-50">
+                            <p class="font-weight-700">会費はすべて税込価格になります。</p>
+                        </div>
+                        <div class="margin-top-50">
+                            <p class="font-weight-700">オプションサービス</p>
+                            <p>・レンタルロッカー：1,000円/月</p>
+                            <p>・レンタルバスケット：500円/月</p>
+                            <p>・柔術着レンタル：1回 500円</p>
+                            <p>・柔術着クリーニング：1回 300円</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-bottom margin-top-20 mobile-hidden">
+                    <div>
+                        <p class="font-weight-700">オプションサービス</p>
+                        <p>・レンタルロッカー：1,000円/月</p>
+                        <p>・レンタルバスケット：500円/月</p>
+                        <p>・柔術着レンタル：1回 500円</p>
+                        <p>・柔術着クリーニング：1回 300円</p>
+                    </div>
+                    <div class="mobile-hidden">
+                        <p class="font-weight-700">会費はすべて税込価格になります。</p>
+                    </div>
+                </div>
                 <a href="/fee" class="button margin-top-30"><span>&nbsp;</span> 詳しく見る</a>
             </div>
         </div>
@@ -238,9 +464,56 @@ get_header(); ?>
                 <h2 class="title-massage">Flow</h2>
                 <p class="p-titlt-12">入会までの流れ</p>
             </div>
-            <img class="width-100 margin-top-30 mobile-hidden" src="<?php bloginfo('template_directory'); ?>/assets/images/flow.png"/>
-            <img class="width-100 margin-top-30 mobile-show" src="<?php bloginfo('template_directory'); ?>/assets/images/flow-mobile.png"/>
-        </div>
+            <div class="row margin-top-30">
+                <div class="col-12 col-md-3">
+                    <div class="item-flow">
+                        <div class="item-top">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/flows/img.png">
+                        </div>
+                        <div class="flow-text margin-top-10">
+                            <p class="font-18 font-weight-700 color-09">ご見学・無料体験申込</p>
+                            <p class="font-16 color-09 margin-top-10 line-height-32">メールまたはお電話でご見学・無料体験日時のご予約をしてください。</p>
+                        </div>
+                        <img class="img-mt" src="<?php bloginfo('template_directory'); ?>/assets/images/flows/mt-white.png">
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 margin-top-20-mobile">
+                    <div class="item-flow">
+                        <div class="item-top">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/flows/img_1.png">
+                        </div>
+                        <div class="flow-text margin-top-10">
+                            <p class="font-18 font-weight-700 color-09">無料体験</p>
+                            <p class="font-16 color-09 margin-top-10 line-height-32">当ジムでは安心してご入会していただく為に無料体験を実施していただきます。</p>
+                        </div>
+                        <img class="img-mt" src="<?php bloginfo('template_directory'); ?>/assets/images/flows/mt-white.png">
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 margin-top-20-mobile">
+                    <div class="item-flow">
+                        <div class="item-top">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/flows/img_2.png">
+                        </div>
+                        <div class="flow-text margin-top-10">
+                            <p class="font-18 font-weight-700 color-09">入会登録</p>
+                            <p class="font-16 color-09 margin-top-10 line-height-32">無料体験後、当ジム5F受付でクレジットカードか銀行口座を登録し完了です。</p>
+                        </div>
+                        <img class="img-mt" src="<?php bloginfo('template_directory'); ?>/assets/images/flows/mt-white.png">
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 margin-top-20-mobile">
+                    <div class="item-flow">
+                        <div class="item-top">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/flows/img_3.png">
+                        </div>
+                        <div class="flow-text margin-top-10">
+                            <p class="font-18 font-weight-700 color-09">ご利用開始</p>
+                            <p class="font-16 color-09 margin-top-10 line-height-32">入会登録後、すぐにジムをご利用いただけます。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
     </section>
     <section class="padding-tb-20">
         <div class="container max-width-1032">
@@ -322,11 +595,6 @@ get_header(); ?>
 
   RODEOS.home();
 </script>
-<div id="header-bot">
-    <a href="/free-trial/">
-        <img src="<?php bloginfo('template_directory'); ?>/assets/images/FreeTrial.png">
-    </a>
-</div>
 <style>
     .ui-dialog{
         position: fixed;

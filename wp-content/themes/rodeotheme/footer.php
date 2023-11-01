@@ -42,6 +42,17 @@
         </div>
     </div>
 </section>
+<a href="/free-trial/">
+    <div id="header-bot">
+        <div id="bor-header-bot">
+            <div>
+                <p>無料体験の</p>
+                <p>お申し込みは</p>
+                <p>こちらから！</p>
+            </div>
+        </div>
+    </div>
+</a>
 <?php wp_footer(); ?>
 </body>
 </html>
