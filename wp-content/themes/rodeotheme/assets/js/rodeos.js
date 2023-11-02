@@ -24,13 +24,12 @@ var RODEOS = {
       $("#navbarSupportedContent .nav-link").removeClass("active");
       $('a[href$="' + window.location.pathname + '"]').addClass('active');
     }
-   /* if(window.location.pathname!='/en/'){
-      $(".a-ja").removeClass("active");
-      $('.a-en').addClass('active');
-    }else{
-      $(".a-en").removeClass("active");
-      $('.a-ja').addClass('active');
-    }*/
+    window.addEventListener('click', function(e){
+      if (!document.getElementById('menu-bot').contains(e.target)){
+        $('.navbar-toggler').click();
+      }
+    });
+
     //End active menu
     //Tab
     $('#tabs ul li').click(function(){

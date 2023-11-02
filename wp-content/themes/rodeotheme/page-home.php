@@ -312,11 +312,43 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-            <div class="mobile-hidden margin-40 text-center">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/images/tabs.png"/>
-            </div>
-            <div class="mobile-show margin-40 text-center">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/images/tabs-mobile.png"/>
+            <div class="row-wifi margin-40">
+                <div class="item-wifi1 item-wifi font-weight-700 flex-center">設備</div>
+                <div class="flex-desktop">
+                    <div class="item-wifi flex-center">
+                        <div>
+                            <div class="flex-center">
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/img.png"/>
+                            </div>
+                            <p class="font-weight-700 text-center">男女別更衣室</p>
+                        </div>
+                    </div>
+                    <div class="item-wifi flex-center">
+                        <div>
+                            <div class="flex-center">
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/img_1.png"/>
+                            </div>
+                            <p class="font-weight-700 text-center">男女別シャワー</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-desktop">
+                    <div class="item-wifi flex-center">
+                        <div>
+                            <div class="flex-center">
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/img_2.png"/>
+                            </div>
+                            <p class="font-weight-700 text-center">男女別トイレ</p>
+                        </div>
+                    </div>
+                    <div class="item-wifi flex-center">
+                        <div>
+                            <div class="flex-center">
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/floors/img_3.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

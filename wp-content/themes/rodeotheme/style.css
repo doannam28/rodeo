@@ -25,7 +25,7 @@ Twenty Twenty-Two is distributed under the terms of the GNU GPL.
     font-family: 'I.F.C. HARDBALL';
     src: url('assets/fonts/i_f_c_hardball/I.F.C. HARDBALL.ttf');
 }
-*{
+body{
     /*font-family: 'Montserrat', sans-serif;*/
     font-weight: 400;
     font-size: 14px;
@@ -166,6 +166,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-transform: capitalize;
 }
 .new-item{
     position: relative;
@@ -718,12 +719,58 @@ body{
     display: flex;
     padding: 12px 20px;
 }
+.item-wifi1{
+    border: 3px solid #fff;
+    margin-left: 0px !important;
+}
+.item-wifi img{
+    max-width: 80px;
+}
+.item-wifi{
+    width: 136px;
+    height: 136px;
+    background: #222222;
+    margin-left: 20px;
+}
+.row-wifi, .flex-desktop{
+    display: flex;
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media only screen and (min-width: 1280px) {
     .max-width-1032{
         max-width: 1032px !important;
     }
 }
 @media only screen and (max-width: 768px) {
+    .item-wifi{
+        margin-left: 0px;
+    }
+    .flex-desktop .item-wifi:first-child{
+        margin-right: 10px;
+    }
+    .flex-desktop .item-wifi:last-child{
+        margin-left: 10px;
+    }
+    .flex-desktop{
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    .row-wifi{
+        display: block;
+        padding: 0px 30px;
+    }
+    .item-wifi1{
+        height: 52px !important;
+        width: 100%;
+    }
     .row-q p{
         line-height: 28px;
     }
@@ -996,7 +1043,7 @@ body{
         font-size: 17px;
     }
     #header-bot{
-        top: 345px;
+        top: 450px;
     }
     #logo-banner img{
         width: 100%;
