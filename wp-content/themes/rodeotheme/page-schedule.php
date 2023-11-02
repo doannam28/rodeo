@@ -20,8 +20,26 @@ get_header(); ?>
             <div class="row">
                 <p>競技者クラスはプロ・アマ競技者および指導者の承認を受けた方が参加出来ます。</p>
                 <p>毎週火曜・金曜19:00のクラスはリングサイドでレディースキックボクシング、マットスペースで柔術・グラップリングとなります。</p>
-                <img class="width-100 margin-top-20 mobile-hidden" src="<?php bloginfo('template_directory'); ?>/assets/images/schedules/schedule.png"/>
-                <img class="width-100 margin-top-20 mobile-show" src="<?php bloginfo('template_directory'); ?>/assets/images/schedules/img.png"/>
+                <div id="div-schedule-title">
+                    <div class="flex-center">
+                        <p class="bg bg-green"></p>
+                        <p class="p-txt">格闘技</p>
+                    </div>
+                    <div class="flex-center margin-top-20-mobile">
+                        <p class="bg bg-pink"></p>
+                        <p class="p-txt">ダンスフィットネス ／ レディースキックボクシング</p>
+                    </div>
+                    <div class="flex-center margin-top-20-mobile">
+                        <p class="bg bg-yellow"></p>
+                        <p class="p-txt">キッズファイトクラブ</p>
+                    </div>
+                    <div class="flex-center margin-top-20-mobile">
+                        <p class="bg bg-brow"></p>
+                        <p class="p-txt">競技者クラス</p>
+                    </div>
+                </div>
+                <img class="width-100 margin-top-20 mobile-hidden" src="<?php bloginfo('template_directory'); ?>/assets/images/schedules/img_3.png"/>
+                <img class="width-100 margin-top-20 mobile-hidden" src="<?php bloginfo('template_directory'); ?>/assets/images/schedules/img_4.png"/>
                 <img class="width-100 margin-top-20 mobile-show" src="<?php bloginfo('template_directory'); ?>/assets/images/schedules/img_1.png"/>
                 <img class="width-100 margin-top-20 mobile-show" src="<?php bloginfo('template_directory'); ?>/assets/images/schedules/img_2.png"/>
             </div>

@@ -667,7 +667,7 @@ body{
     border-radius: 4px;
     border: 2px solid #909090;
     padding: 24px 20px;
-    min-height: 340px;
+    min-height: 372px;
 }
 .item-top img{
     max-width: 160px;
@@ -744,12 +744,42 @@ body{
     justify-content: center;
     align-items: center;
 }
+#div-schedule-title{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#div-schedule-title .bg-green{
+    background: #93B47F;
+}
+#div-schedule-title .bg{
+    width: 44px;
+    height: 33px;
+    border: 3px solid #090909;
+    margin-right: 10px;
+}
+.bg-pink{
+    background: #E8B0C9;
+}
+.bg-yellow{
+    background: #FDD476;
+}
+.bg-brow{
+    background: #BD7E79;
+}
 @media only screen and (min-width: 1280px) {
     .max-width-1032{
         max-width: 1032px !important;
     }
 }
 @media only screen and (max-width: 768px) {
+
+    #div-schedule-title .flex-center{
+        justify-content: left;
+    }
+    #div-schedule-title{
+        display: block;
+    }
     .item-wifi{
         margin-left: 0px;
     }
