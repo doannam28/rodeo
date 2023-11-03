@@ -26,7 +26,7 @@ var RODEOS = {
     }
     window.addEventListener('click', function(e){
       if (!document.getElementById('menu-bot').contains(e.target)){
-        $('.navbar-toggler').click();
+        $('#navbarSupportedContent').removeClass('show');
       }
     });
 
