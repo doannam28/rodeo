@@ -87,7 +87,7 @@ get_header(); ?>
             </div>
         </div>
     </section>
-    <section id="introduction" class="padding-tb-20">
+    <section id="introduction" class="padding-tb-50">
         <div class="container max-width-1032">
            <div id="wrap-introduction">
                <div id="div-left-intro">

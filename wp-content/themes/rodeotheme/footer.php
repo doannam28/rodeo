@@ -5,8 +5,9 @@
         <p class="right-top mobile-show p-dot"></p>
         <p class="right-bot mobile-show p-dot"></p>
         <a href="/free-trial/">
-            <h2 class="text-center">まずは無料体験！</h2>
-            <h2 class="text-center">予約はこちらから！</h2>
+            <h2 class="text-center mobile-hidden">まずは無料体験！ 予約はこちらから！</h2>
+            <h2 class="text-center mobile-show">まずは無料体験！</h2>
+            <h2 class="text-center mobile-show">予約はこちらから！</h2>
         </a>
     </div>
     <div class="block2">

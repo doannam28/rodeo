@@ -596,7 +596,8 @@ body{
     justify-content: space-between;
 }
 #introduction{
-    background: rgba(0, 0, 0, 0.8);
+    background: url("assets/images/introdu.png") center center no-repeat;
+    background-size: cover;
 }
 #wrap-introduction{
     background: rgba(6, 6, 6, 0.8);
@@ -767,13 +768,19 @@ body{
 .bg-brow{
     background: #BD7E79;
 }
+.line-height-28{
+    line-height: 28px;
+}
 @media only screen and (min-width: 1280px) {
     .max-width-1032{
         max-width: 1032px !important;
     }
 }
 @media only screen and (max-width: 768px) {
-
+    #introduction{
+        background: url("assets/images/introdu-mobile.png") center center no-repeat;
+        background-size: cover;
+    }
     #div-schedule-title .flex-center{
         justify-content: left;
     }

@@ -18,8 +18,10 @@ get_header(); ?>
     <section class="bg-222 padding-tb-50">
         <div class="container max-width-920">
             <div class="row">
-                <p>競技者クラスはプロ・アマ競技者および指導者の承認を受けた方が参加出来ます。</p>
-                <p>毎週火曜・金曜19:00のクラスはリングサイドでレディースキックボクシング、マットスペースで柔術・グラップリングとなります。</p>
+                <p class="line-height-28">競技者クラスはプロ・アマ競技者および指導者の承認を受けた方が参加出来ます。</p>
+                <p class="line-height-28">毎週火曜・金曜19:00のクラスはリングサイドでレディースキックボクシング、マットスペースで柔術・グラップリングとなります。</p>
+                <p class="line-height-28">初心者・女性の方がどのクラスに参加されても基本から丁寧に指導いたします。</p>
+                <p class="margin-top-30 line-height-28">クラス以外の時間は自主トレーニングに使えます。</p>
                 <div id="div-schedule-title">
                     <div class="flex-center">
                         <p class="bg bg-green"></p>

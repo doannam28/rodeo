@@ -18,7 +18,7 @@ get_header(); ?>
     <section id="block-member" class="bg-222 padding-tb-50">
         <div class="container max-width-920">
             <div class="div-title-w">
-                <h2>ファイティングアカデミー</h2>
+                <h2>インストラクター＆ファイター</h2>
                 <p class="under"></p>
             </div>
             <div class="row margin-top-30">
