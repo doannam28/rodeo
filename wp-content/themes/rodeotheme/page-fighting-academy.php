@@ -86,7 +86,7 @@ get_header(); ?>
                     <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/fighting-academy/avata6.png"/>
                     <p class="font-20 margin-top-30">近野 淳平</p>
                     <p class="font-12">JUNPEI CHIKANO</p>
-                    <p class="margin-top-20 font-16">1979年5月6日​ 横須賀市出身</p>
+                    <p class="margin-top-20 font-16">1979年5月6日 横須賀市出身</p>
                     <p class="p-social margin-top-20 p-social-member">
                         <a href="https://instagram.com/mmashota?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Instagram.svg"/></a>
                         <a href="https://www.facebook.com/junpei.chikano" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Twitter.png"/></a>
