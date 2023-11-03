@@ -32,7 +32,7 @@ get_header(); ?>
                     <p class="font-16">MMA / 柔術 / キックボクシング / ボクシング / レディース / キッズ</p>
                     <p class="p-social margin-top-20 p-social-member">
                         <a href="https://www.instagram.com/kato_yasutaka/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Instagram.svg"/></a>
-                        <a href="https://www.facebook.com/naoyuki.kotani.1?fref=ts" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Facebook.png"/></a>
+                        <a href="https://www.facebook.com/profile.php?id=100004539094922" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Facebook.png"/></a>
                     </p>
                 </div>
                 <div class="col-12 col-md-6 col-right">
@@ -78,20 +78,18 @@ get_header(); ?>
                     <p class="font-12">SHOTA TANII</p>
                     <p class="margin-top-20 font-16">1990年10月4日 東京都出身</p>
                     <p class="p-social margin-top-20 p-social-member">
-                        <a href="https://instagram.com/jp952164?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Instagram.svg"/></a>
-                        <a href="https://www.facebook.com/junpei.chikano" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Facebook.png"/></a>
+                        <a href="https://instagram.com/mmashota?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Instagram.svg"/></a>
+                        <a href="https://twitter.com/taniboy2" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Twitter.png"/></a>
                     </p>
                 </div>
                 <div class="col-12 col-md-6 col-right">
                     <img class="width-100" src="<?php bloginfo('template_directory'); ?>/assets/images/fighting-academy/avata6.png"/>
-                    <p class="font-20 margin-top-30">加藤 鞍登児</p>
-                    <p class="font-12">ANTONY KATO</p>
-                    <p class="margin-top-20 font-16">2009年1月8日​ 横須賀市出身</p>
-                    <p class="margin-top-20 font-16">担当クラス</p>
-                    <p class="font-16">ロデオキッズファイトクラブ</p>
+                    <p class="font-20 margin-top-30">近野 淳平</p>
+                    <p class="font-12">JUNPEI CHIKANO</p>
+                    <p class="margin-top-20 font-16">1979年5月6日​ 横須賀市出身</p>
                     <p class="p-social margin-top-20 p-social-member">
                         <a href="https://instagram.com/mmashota?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Instagram.svg"/></a>
-                        <a href="https://twitter.com/taniboy2" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Twitter.png"/></a>
+                        <a href="https://www.facebook.com/junpei.chikano" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/Twitter.png"/></a>
                     </p>
                 </div>
             </div>
