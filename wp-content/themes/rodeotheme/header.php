@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html lang="ja" <?php //language_attributes(); ?>>
 <head>
     <meta charset="UTF-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
@@ -38,6 +38,7 @@
             <div id="menu">
                 <div id="menu-top" class="flex-end">
                     <p class="p-lang">
+                        <span class="span-lang notranslate">Select a language:</span>
                     <div id="google_translate_element"></div>
                     </p>
                     <p class="p-social">
@@ -61,23 +62,70 @@
                                     <li class="nav-item"><a class="nav-link" href="/fee/">料金システム</a></li>
                                     <li class="nav-item"><a class="nav-link" href="/schedule/">スケジュール</a></li>
                                     <li class="nav-item"><a class="nav-link" href="/access/">アクセス</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="https://rodeostyle.weebly.com/blog" target="_blank">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="https://rodeostyle.weebly.com/blog" target="_blank">ブログ</a></li>
                                     <li class="nav-item"><a class="nav-link" href=" /free-trial/">無料体験</a></li>
                                     <li class="nav-item"><a class="nav-link" href="/">お問合せ</a></li>
                                     <li class="nav-item nav-item-mobile">
                                         <p class="p-lang">
+                                            <span class="span-lang notranslate">Select a language:</span>
                                         <div id="google_translate_element_mobile"></div>
                                         <script>
+                                          var elm = window.screen.width <= 768 ? 'google_translate_element_mobile': 'google_translate_element';
                                           function googleTranslateElementInit() {
-                                            var elm = window.screen.width <= 768 ? 'google_translate_element_mobile': 'google_translate_element';
                                             new google.translate.TranslateElement({
                                               pageLanguage: 'en,ja',
                                               includedLanguages: 'en,ja',
                                               layout: google.translate.TranslateElement.InlineLayout.SIMPLE
                                             }, elm);
                                           }
+                                          function convertText(elm){
+                                            if(elm.contents().find('.text').length > 2){
+                                              elm.contents().find('.text').eq(0).html("言語を選択");
+                                              elm.contents().find('.text').eq(1).html("日本語");
+                                              elm.contents().find('.text').eq(2).html("English");
+                                            }else{
+                                              elm.contents().find('.text').html('English');
+                                              elm.contents().find('span.text:first').html('日本語');
+                                            }
+                                          }
+                                          function convertTextLangChoice(){
+                                            if($('.goog-te-gadget-simple a span:first')){
+                                              if($('html').attr("lang") != "ja"){
+                                                $('.goog-te-gadget-simple a span:first').html("English");
+                                              }else{
+                                                $('.goog-te-gadget-simple a span:first').html("日本語");
+                                              }
+                                            }
+                                          }
+                                          var countTimeOut = 0;
+                                          $(document).ready(function(){
+                                            $('#'+elm).bind('DOMNodeInserted', function(event) {
+                                                setTimeout(function(){
+                                                  if($('iframe.skiptranslate').length == 4){
+                                                    var elm = $('iframe.skiptranslate').eq(1);
+                                                    convertText(elm);
+                                                    elm = $('iframe.skiptranslate').eq(2);
+                                                    convertText(elm);
+                                                    elm = $('iframe.skiptranslate').eq(3);
+                                                    convertText(elm);
+                                                  }else{
+                                                    if($('iframe.skiptranslate').length == 1){
+                                                      $('iframe.skiptranslate').contents().find('a:first').html('');
+                                                      $('iframe.skiptranslate').contents().find('span.text:first').css({'color':'#000', 'font-weight': 'bold'});
+                                                    }
+                                                    var elm = $('iframe.skiptranslate').eq(0);
+                                                    convertText(elm);
+                                                    elm = $('iframe.skiptranslate').eq(1);
+                                                    convertText(elm);
+                                                    elm = $('iframe.skiptranslate').eq(2);
+                                                    convertText(elm);
+                                                  }
+                                                  convertTextLangChoice();
+                                              }, 500);
+                                            });
+                                          });
                                         </script>
-                                        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                                        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&hl=ja"></script>
                                         </p>
                                     </li>
                                     <li class="nav-item nav-item-mobile">

@@ -1025,8 +1025,15 @@ body{
         background: url("assets/images/Menu.png");
         background-size: contain;
     }
-    #img-logo-mobile,.nav-item-mobile{
+    #img-logo-mobile{
         display: block;
+    }
+    .nav-item-mobile .p-lang{
+        margin-top: 1px;
+        margin-right: 5px;
+    }
+    .nav-item-mobile{
+        display: flex;
     }
     #img-logo{
         display: none;
@@ -1041,6 +1048,7 @@ body{
         background: rgba(9, 9, 9, 0.8);
         padding: 20px;
         border:1px solid #CF0E0E;
+        min-width: 250px;
     }
     #menu-bot .container-fluid {
         display: flex;
